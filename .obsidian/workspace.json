@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fa3db78b066a83b2",
+        "id": "d926c07e11fcc232",
         "type": "tabs",
         "children": [
           {
-            "id": "f8eda9cf6a474ba2",
+            "id": "c5a09c2e151897fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,24 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Kombinatorische Logik"
-            }
-          }
-        ]
-      },
-      {
-        "id": "5137d9ad464707e0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "feb3165ff0f1088c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Rechnerarchitektur/VO/vor3_kombinatorische_logik_II.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "vor3_kombinatorische_logik_II"
             }
           }
         ]
@@ -73,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"cssclasses\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Einführung_Programmieren/UE/s02/s02e02.md",
+                "file": "Rechnerarchitektur/VO/Kombinatorische Logik.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -205,41 +187,44 @@
       "templates:Vorlage einfügen": false,
       "command-palette:Befehlspalette öffnen": false,
       "bases:Neue Base erstellen": false,
-      "yaas:Open the slides panel": false
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "feb3165ff0f1088c",
+  "active": "c5a09c2e151897fa",
   "lastOpenFiles": [
+    "Rechnerarchitektur/VO/Images/Pasted image 20261028151211.png",
+    "Rechnerarchitektur/VO/Images/Pasted image 20261028150510.png",
+    "Rechnerarchitektur/VO/Images/Pasted image 20261028151224.png",
+    "Rechnerarchitektur/VO/Images/Pasted image 20261028150909.png",
+    "Rechnerarchitektur/VO/Kombinatorische Logik.md",
+    "Funktionale_Programmierung/UE/02/fp_ps_02/dist-newstyle/build/x86_64-linux/ghc-9.10.3/FP-Proseminar-Tests-0.1.0.0/x/Main/build/Main/Main-tmp/Template_02.o.tmp",
+    "Rechnerarchitektur/VO/vor2_kombinatorische_logik_I.pdf",
+    "Rechnerarchitektur/VO/vor3_kombinatorische_logik_II.pdf",
+    "Rechnerarchitektur/VO/Sequenzielle Logik.md",
+    "Rechnerarchitektur/VO/Images/Pasted image 20261028151159.png",
+    "Rechnerarchitektur/VO/Images/Pasted image 20261028151102.png",
+    "Einführung_Programmieren/UE/s04/s04e05.c~",
+    "Einführung_Programmieren/UE/s04/s04e04.c~",
+    "Einführung_Programmieren/UE/s04/s04e04",
+    "Einführung_Programmieren/UE/s04/s04e02.c~",
+    "Einführung_Programmieren/UE/s04/s04e02",
+    "Rechnerarchitektur/VO/Images/Pasted image 20261028104732.png",
+    "Rechnerarchitektur/VO/Images/Pasted image 20261028104802.png",
+    "Rechnerarchitektur/VO/Images/Pasted image 20261028110515.png",
+    "Rechnerarchitektur/VO/Images/Pasted image 20261028110502.png",
+    "Rechnerarchitektur/VO/Rechnerarchitektur_Einfuehrung.md",
+    "Theoretische Informatik/VO/vor_2_Theoretische_Informatik.pdf",
+    "Unbenannt.canvas",
     "README.md",
     "LICENSE",
-    "Obsidian_Save/LICENSE",
     "Obsidian_Save/README.md",
-    "Obsidian_Save",
-    "Rechnerarchitektur/VO/Kombinatorische Logik.md",
-    "Rechnerarchitektur/VO/vor3_kombinatorische_logik_II.pdf",
-    "Rechnerarchitektur/UE/zettel02.pdf",
     "Einführung_Programmieren/UE/s04/Einfuehrung_Programmierung_Angabe_s04.md",
     "Einführung_Programmieren/UE/s04/s04e01.md",
-    "Einführung_Programmieren/UE/s04/s04e03.c~",
-    "Unbenannt.md",
     "Einführung_Programmieren/UE/s03/s03e03.md",
     "Einführung_Programmieren/UE/s03/s03e01.md",
-    "Einführung_Programmieren/UE/s03/s03e04.c~",
-    "Theoretische Informatik/UE/Theoretische Informatik-blatt2.pdf",
-    "Einführung_Programmieren/UE/s03/s03e05.c~",
-    "Einführung_Programmieren/UE/s03/s03e05",
-    "Lineare Algebra/Blatt 3/IMG_20261024_190354485 1.jpg",
     "Lineare Algebra/Blatt 3/Schaetzle_Blatt_03_Gruppe_1.md",
     "Lineare Algebra/Blatt 2/Schaetzle_Blatt_02_Gruppe_1.md",
-    "Lineare Algebra/Blatt 3/IMG_20261024_190348022 1.jpg",
-    "Lineare Algebra/Blatt 3/IMG_20261024_190343204 1.jpg",
-    "Lineare Algebra/Blatt 3/IMG_20261024_190337596 1.jpg",
-    "Lineare Algebra/Blatt 3/IMG_20261024_190331153 1.jpg",
-    "Lineare Algebra/Blatt 3/IMG_20261024_190354485.jpg",
-    "Lineare Algebra/Blatt 3/IMG_20261024_190348022.jpg",
-    "Lineare Algebra/Blatt 3/IMG_20261024_190343204.jpg",
-    "Lineare Algebra/Blatt 3/IMG_20261024_190337596.jpg",
-    "Lineare Algebra/Blatt 3/IMG_20261024_190331153.jpg",
     "Theoretische Informatik/VO/Theoretische Informatik Einleitung.md",
     "Einführung_Programmieren/VO/VO 08.10.26.md",
     "Einführung_Programmieren/UE/s03/Einfuehrung_Programmierung_Angabe_s03.md",
@@ -247,16 +232,13 @@
     "Funktionale_Programmierung/UE/02/Funktionale Programmierung UE 02.md",
     "Rechnerarchitektur/UE/Zettel-01 Beantwortung Luna Schaetzle.md",
     "Funktionale_Programmierung/VO/Funktionale Programmierung Einführung.md",
-    "Rechnerarchitektur/VO/Rechnerarchitektur_Einfuehrung.md",
     "Einführung_Programmieren/UE/s02/Einfuehrung_Programmierung_Angabe_s02.md",
     "Einführung_Programmieren/UE/s02/s02e02.md",
-    "Unbenannt.canvas",
     "Funktionale_Programmierung/UE/fp_ps_00/dist-newstyle/tmp/src-13366/leancheck-1.0.4/doc/tutorial.md",
     "Funktionale_Programmierung/UE/fp_ps_00/dist-newstyle/tmp/src-13366/leancheck-1.0.4/doc/memory-usage.md",
     "Funktionale_Programmierung/UE/fp_ps_00/dist-newstyle/tmp/src-13366/leancheck-1.0.4/doc/faq.md",
     "Funktionale_Programmierung/UE/fp_ps_00/dist-newstyle/tmp/src-13366/leancheck-1.0.4/doc/data-invariant.md",
     "Funktionale_Programmierung/UE/fp_ps_00/dist-newstyle/tmp/src-13366/leancheck-1.0.4/changelog.md",
-    "Funktionale_Programmierung/UE/fp_ps_00/dist-newstyle/tmp/src-13366/leancheck-1.0.4/TODO.md",
     "Unbenannt 4.canvas",
     "Unbenannt 3.canvas",
     "Unbenannt 2.canvas",

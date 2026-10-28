@@ -1,4 +1,6 @@
 [
   "automatic-table-of-contents",
-  "obsidian-plugin-toc"
+  "obsidian-plugin-toc",
+  "local-gpt",
+  "ai-providers"
 ]
