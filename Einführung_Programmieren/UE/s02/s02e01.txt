@@ -1,0 +1,13 @@
+1.
+int - Ganzzahl
+char - Ein Zeichen
+double - Gleit Kommerzahl
+float -  Kommazahlen
+
+2.
+Intagers haben auch noch short, long and long long versionen dadurch vergrößert sich der Speicher (16,32,64 - Bit)
+Char haben meißtens immer in C die gleiche Speicher größe also ASCII größe (8-Bit)
+
+3.
+
+

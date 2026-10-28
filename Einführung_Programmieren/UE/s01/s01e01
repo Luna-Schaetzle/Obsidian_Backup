@@ -1,0 +1,45 @@
+1. 
+"gcc" ist ein Compailer für die Programmiersprache C.
+Es wird dazu verwendet um in C geschribene Programme
+eg. programm.c mit der endung .c von einer für Menschen lesbaren 
+sprache in eine von Computern zu verstheneden sprache zu übersetzen.
+Es gibt noch gcc Alternativen z.b.: Tiny C Compiler, zapcc, ...
+
+2.
+Version auf meinem Laptop
+gcc (GCC) 16.2.1 20260819 (Red Hat 16.2.1-2)
+Aufruf für die Version:
+gcc --version
+
+3.
+GCC 16.2 ist die neueste version
+
+4. siehe File s01e01.c
+
+5.
+-> s01e01.c ist eine Quellcode Datei.
+- Eine Quellcode datei kann von Menschen gelesen werden und ist in C geschrieben.
+- Eine Executable ist eine Datei die direkt vom Computer gelesen werden kann und auch ausgeführt werden kann.
+
+6.
+Der Schritt des Kompilieren ist nötig um eine Höhere Programmiersprache
+wie es C zum beispiel ist, in Maschinensprache (Maschinenbefehle) zu übersetzen.
+Diese Maschinenbefehle können dann erst ausgeführt werden weil das das einzige ist das der Computer Versteht.
+
+7.
+-Wall ... Aktiviert alle Warnings die standartmäßig nicht ausgegeben werden
+-Wextra ... Das ergänzt die Warning Flags um einige die nicht durch -Wall aktiviert werden
+-Werror ... Alle Warnungen werden als Fehler ausgegeben. 
+-Wpedantic ... damit wird das zu Kompilierende Programm um die Standart C bzw.ISO C eingehalten wird und ergänzt die Warnings falls dies nicht so ist
+-std=c18 ... Das Programm wird mit der C version 18 Kompiliert.
+--o s01e01... Das output file sollte s01e01 heiße
+
+
+8. Unter linux in der Kommandozeile:
+   ./s01e01
+
+
+
+
+
+

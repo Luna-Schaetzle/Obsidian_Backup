@@ -1,0 +1,41 @@
+cabal-version:      3.0
+name:               FP-Proseminar-Tests
+
+version:            0.1.0.0
+
+
+category:           Development
+build-type:         Simple
+
+common warnings
+    ghc-options: -Wall
+
+executable Main
+    import:           warnings
+    
+    main-is:          Main.hs
+
+    other-modules:
+      Tests_02
+      Template_02
+      
+    ghc-options:
+      -O2
+      -Wno-missing-signatures
+      -Wno-type-defaults
+      -Wno-incomplete-patterns
+      -Wno-incomplete-uni-patterns
+      -Wno-unused-matches
+      -Wno-unused-top-binds
+      -Wno-name-shadowing
+      -Wno-deprecations
+      -Wno-unused-do-bind
+      -Wno-orphans
+
+    build-depends:    base >=4.12
+         , leancheck
+
+    hs-source-dirs:   src
+
+    default-language: Haskell2010
+
