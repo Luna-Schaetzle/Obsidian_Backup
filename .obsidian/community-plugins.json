@@ -2,5 +2,7 @@
   "automatic-table-of-contents",
   "obsidian-plugin-toc",
   "local-gpt",
-  "ai-providers"
+  "ai-providers",
+  "obsidian-plugin-todo",
+  "obsidian-reminder-plugin"
 ]

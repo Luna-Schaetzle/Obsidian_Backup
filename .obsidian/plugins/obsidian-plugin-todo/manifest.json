@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-plugin-todo",
+  "name": "Vault Todos",
+  "version": "0.3.2",
+  "minAppVersion": "0.16.0",
+  "description": "Collects TODOs from across your vault, and organizes them into Today, Scheduled, Inbox, and Someday/Maybe lists.",
+  "author": "Lars Lockefeer",
+  "authorUrl": "https://lars.lockefeer.online",
+  "isDesktopOnly": false
+}

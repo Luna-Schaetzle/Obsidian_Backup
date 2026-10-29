@@ -1,0 +1,59 @@
+{
+  "scanned": true,
+  "seededTaskStatuses": "",
+  "reminders": {
+    "TODO.md": [
+      {
+        "title": "C-Programmierung UE-Aufgabe s04",
+        "time": "2026-11-30 13:00",
+        "rowNumber": 14,
+        "muted": false
+      }
+    ]
+  },
+  "debug": false,
+  "dndUntil": null,
+  "settings": {
+    "reminderTime": "09:00",
+    "reminderTimeStep": 15,
+    "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
+    "enableNotification": true,
+    "reNotifyMutedOnStartup": false,
+    "notificationPopupStyle": "toast",
+    "openNoteOnReminderClick": false,
+    "useSystemNotification": false,
+    "showPopupWithSystemNotification": false,
+    "keepSystemNotificationOnScreen": false,
+    "focusDoneButtonOnPopup": false,
+    "showOverdueCountInStatusBar": true,
+    "autoCompleteTrigger": "(@",
+    "convertNonTaskLines": true,
+    "primaryReminderFormat": "ReminderPluginReminderFormat",
+    "editorReminderDisplay": true,
+    "enableReminderPluginReminderFormat": true,
+    "dateFormat": "YYYY-MM-DD",
+    "dateTimeFormat": "YYYY-MM-DD HH:mm",
+    "strictDateFormat": false,
+    "linkDatesToDailyNotes": false,
+    "enableTasksPluginReminderFormat": false,
+    "useCustomEmojiForTasksPlugin": false,
+    "useReminderTimeFallbackForTasksPlugin": false,
+    "removeTagsForTasksPlugin": false,
+    "taskStatuses": "",
+    "enableDataviewReminderFormat": false,
+    "dataviewReminderFieldName": "reminder",
+    "enableKanbanPluginReminderFormat": false,
+    "yearMonthDisplayFormat": "YYYY, MMMM",
+    "monthDayDisplayFormat": "MM/DD",
+    "shortDateWithWeekdayDisplayFormat": "M/DD (ddd)",
+    "timeDisplayFormat": "HH:mm",
+    "weekStart": "0",
+    "ntfyEnabled": false,
+    "ntfyServerUrl": "https://ntfy.sh",
+    "ntfyTopic": "",
+    "ntfyAccessToken": "",
+    "excludedPaths": "",
+    "editDetectionSec": 10,
+    "reminderCheckIntervalSec": 5
+  }
+}
