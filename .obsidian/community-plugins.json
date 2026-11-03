@@ -1,8 +1,14 @@
 [
-  "automatic-table-of-contents",
   "obsidian-plugin-toc",
   "local-gpt",
   "ai-providers",
   "obsidian-plugin-todo",
-  "obsidian-reminder-plugin"
+  "obsidian-reminder-plugin",
+  "recent-files-obsidian",
+  "obsidian-paste-image-rename",
+  "omnisearch",
+  "code-editor",
+  "obsidian-latex-suite",
+  "obsidian-auto-link-title",
+  "flashcard-learning"
 ]

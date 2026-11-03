@@ -1,3 +1,5 @@
+#Rechnerarchitektur 
+
 - [[#Vor-/Nachteile Analogrechner | Digitalrechner|Vor-/Nachteile Analogrechner | Digitalrechner]]
 - [[#Kombinatorische Logik|Kombinatorische Logik]]
 - [[#Definition|Definition]]
@@ -123,16 +125,16 @@ Eine Schaltfunktion mit $m = 1$ Ausgang heißt **$n$-stellige Boolesche Funktion
 
 ### Wichtige Bezeichnungen der zweistelligen Booleschen Funktionen
 
-|Bezeichnung|Gatter / Bedeutung|Formel|
-|---|---|---|
-|Konjunktion|AND – [[#Gatter]]|$a \cdot b$|
-|Disjunktion|OR – [[#Gatter]]|$a + b$|
-|Antivalenz|XOR – [[#Gatter]] (genau eine Eingabe ist 1)|$a \oplus b$|
-|Äquivalenz|XNOR ("genau dann, wenn")|$\overline{a \oplus b}$|
-|Negatdisjunktion|NOR – [[#Gatter]]|$\overline{a + b}$|
-|Negatkonjunktion|NAND – [[#Gatter]]|$\overline{a \cdot b}$|
-|Implikation|"wenn a, dann b"|$a \Rightarrow b = \overline{a} + b$|
-|Negation|NOT – [[#Gatter]] (einstellig)|$\overline{a}$|
+| Bezeichnung      | Gatter / Bedeutung                           | Formel                               | Assoziativ      |
+| ---------------- | -------------------------------------------- | ------------------------------------ | --------------- |
+| Konjunktion      | AND – [[#Gatter]]                            | $a \cdot b$                          | Ja              |
+| Disjunktion      | OR – [[#Gatter]]                             | $a + b$                              | Ja              |
+| Antivalenz       | XOR – [[#Gatter]] (genau eine Eingabe ist 1) | $a \oplus b$                         | Ja              |
+| Äquivalenz       | XNOR ("genau dann, wenn")                    | $\overline{a \oplus b}$              | Ja              |
+| Negatdisjunktion | NOR – [[#Gatter]]                            | $\overline{a + b}$                   | Nein            |
+| Negatkonjunktion | NAND – [[#Gatter]]                           | $\overline{a \cdot b}$               | Nein            |
+| Implikation      | "wenn a, dann b"                             | $a \Rightarrow b = \overline{a} + b$ | Nein            |
+| Negation         | NOT – [[#Gatter]] (einstellig)               | $\overline{a}$                       | Nicht anwendbar |
 
 ---
 
@@ -227,7 +229,9 @@ Grafisches Verfahren zur Minimierung. Die Zeilen und Spalten sind so angeordnet 
 
 Wichtig: Die Ränder des Diagramms gelten als **benachbart** (zyklisch).
 
-2 Variablen: ![[Pasted image 20261028151159.png]] 3 Variablen: ![[Pasted image 20261028151211.png]] 4 Variablen: ![[Pasted image 20261028151224.png]]
+2 Variablen: ![[Pasted image 20261028151159.png]] 
+3 Variablen: ![[Pasted image 20261028151211.png]] 
+4 Variablen: ![[Pasted image 20261028151224.png]]
 
 ![[Pasted image 20261028150909.png]]
 

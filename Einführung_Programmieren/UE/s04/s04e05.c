@@ -3,28 +3,22 @@
 
 int main() {
     int height;
-    int iter = 0;
-    int witdh = 1;
-
 
     printf("height: ");
     if (scanf("%d", &height) != 1) {
         return EXIT_FAILURE;
     }
-    iter = height;
 
-    //first
+    for (int row = 1; row <= height; row++) {
+        // Erste Zahl: Breite = Einrückung (2 pro fehlender Zahl) + 1 Ziffer
+        printf("%*d", 2 * (height - row) + 1, 1);
 
-    while (iter > 0) {
-
-        while () {
-
+        // Restliche Zahlen: Breite 2 (Leerzeichen + Ziffer)
+        for (int n = 2; n <= row; n++) {
+            printf("%*d", 2, n);
         }
-        printf("%*s%*s\n",(iter-1),"x",(witdh),"x");
-        witdh++;
-        iter--;
+        printf("\n");
     }
-
 
     return EXIT_SUCCESS;
 }

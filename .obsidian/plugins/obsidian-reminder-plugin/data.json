@@ -2,11 +2,17 @@
   "scanned": true,
   "seededTaskStatuses": "",
   "reminders": {
-    "TODO.md": [
+    "README.md": [
       {
-        "title": "C-Programmierung UE-Aufgabe s04",
-        "time": "2026-11-30 13:00",
-        "rowNumber": 14,
+        "title": "Skript für C-Programmierungs Midterm Test",
+        "time": "2026-11-06",
+        "rowNumber": 7,
+        "muted": false
+      },
+      {
+        "title": "Theoretische Informatik",
+        "time": "2026-11-05",
+        "rowNumber": 18,
         "muted": false
       }
     ]
