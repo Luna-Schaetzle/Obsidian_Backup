@@ -4,61 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "7352f78a4bd2cf42",
+        "id": "741f9ba5e5d85d00",
         "type": "tabs",
         "children": [
           {
-            "id": "e430f2dc308e7617",
+            "id": "69809a816eebdabf",
             "type": "leaf",
             "state": {
-              "type": "code-editor",
+              "type": "pdf",
               "state": {
-                "file": "Einführung_Programmieren/UE/s04/s04e03.c"
+                "file": "Funktionale_Programmierung/UE/03/UE-Funktional-Programmierung-03.pdf"
               },
-              "icon": "file-code",
-              "title": "s04e03.c"
+              "icon": "lucide-file-text",
+              "title": "UE-Funktional-Programmierung-03"
             }
           },
           {
-            "id": "ee1f1810a5c912ae",
+            "id": "d4790762baadf5ac",
             "type": "leaf",
             "state": {
-              "type": "code-editor",
+              "type": "pdf",
               "state": {
-                "file": "Einführung_Programmieren/UE/s04/s04e04.c"
+                "file": "Theoretische Informatik/UE/Theoretische Informatik-Blatt3.pdf"
               },
-              "icon": "file-code",
-              "title": "s04e04.c"
+              "icon": "lucide-file-text",
+              "title": "Theoretische Informatik-Blatt3"
             }
           },
           {
-            "id": "b73a2b959b7a68a7",
+            "id": "17cd5cbe5a311e30",
             "type": "leaf",
             "state": {
-              "type": "code-editor",
+              "type": "pdf",
               "state": {
-                "file": "Einführung_Programmieren/UE/s04/s04e05.c"
+                "file": "Theoretische Informatik/VO/vor_3_Theoretische_Informatik.pdf"
               },
-              "icon": "file-code",
-              "title": "s04e05.c"
-            }
-          },
-          {
-            "id": "af790b0c9046d152",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Einführung_Programmieren/VO/Einführung in die Programmierung 01–05.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Einführung in die Programmierung 01–05"
+              "icon": "lucide-file-text",
+              "title": "vor_3_Theoretische_Informatik"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Grimoire (Idee).md",
+                "file": "Theoretische Informatik/UE/Theoretische Informatik-Blatt3.pdf",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -169,7 +154,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Grimoire (Idee).md"
+                "file": "Theoretische Informatik/UE/Theoretische Informatik-Blatt3.pdf"
               },
               "icon": "lucide-file-signature",
               "title": "Fußnoten"
@@ -210,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Einführung_Programmieren/UE/s02/s02e02.md",
+                "file": "Theoretische Informatik/UE/Theoretische Informatik-Blatt3.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -277,33 +262,45 @@
       "flashcard-learning:Review flashcards": false
     }
   },
-  "active": "af790b0c9046d152",
+  "active": "69809a816eebdabf",
   "lastOpenFiles": [
-    "Grimoire (Idee).md",
-    "Einführung_Programmieren/UE/s04/s04e03.c",
-    "Einführung_Programmieren/VO/Einführung in die Programmierung 01–05.md",
-    "Einführung_Programmieren/VO/EidP-01-Einfuehrung.pdf",
-    "Einführung_Programmieren/UE/s04/s04e05.c",
-    "Einführung_Programmieren/UE/s04/s04e02.c",
-    "Vorlagen",
-    "Einführung_Programmieren/UE/s04/s04e04.c",
-    "Einführung_Programmieren/UE/s04/s04e01.md",
-    "Theoretische Informatik/UE/Theoretische Informatik-Blatt3.pdf",
+    "Lineare Algebra/Blatt 4/UE_LinAlg1_Blatt_04.pdf",
     "Theoretische Informatik/VO/vor_3_Theoretische_Informatik.pdf",
+    "Theoretische Informatik/UE/Theoretische Informatik-Blatt3.pdf",
+    "Theoretische Informatik/UE/Theoretische Informatik-blatt2.pdf",
+    "Theoretische Informatik/UE/loesung1 - Theoretische Informatik.pdf",
+    "Dashboard.md",
+    "Funktionale_Programmierung/UE/03/UE-Funktional-Programmierung-03.pdf",
+    "Rechnerarchitektur/VO/Arithmetik.md",
+    "Funktionale_Programmierung/UE/03/fp_ps_03/src/Tests_03.hs",
+    "Funktionale_Programmierung/UE/03/fp_ps_03/src/Template_03.hs",
+    "Funktionale_Programmierung/UE/03/fp_ps_03/src/Main.hs",
+    "Funktionale_Programmierung/UE/03/fp_ps_03/src",
+    "Funktionale_Programmierung/UE/03/fp_ps_03/fp_ps.cabal",
+    "Rechnerarchitektur/VO/Kombinatorische Logik FlashCards.md",
+    "Rechnerarchitektur/VO/Kombinatorische Logik.md",
+    "Rechnerarchitektur/VO/Sequenzielle Logik.md",
+    "Einführung_Programmieren/VO/Flashcards_EidP_Midterm_1.md",
+    "Einführung_Programmieren/VO/Einführung in die Programmierung 01–05.md",
+    "Test.md",
+    "Vorlagen/Exam Prep.md",
+    "Vorlagen/Lecture Note.md",
+    "Vorlagen/Reading Note.md",
+    "Vorlagen/Class Notes (Cornell).md",
+    "Vorlagen/Cornell Note.md",
+    "Vorlagen/Unbenannt.md",
+    "Portal.md",
+    "Lecture 01 - Descriptive Statistics.md",
+    "Grimoire (Idee).md",
+    "Start Here.md",
+    "Einführung_Programmieren/UE/s04/s04e01.md",
     "Lineare Algebra/Blatt 2/Schaetzle_Blatt_02_Gruppe_1.md",
     "Lineare Algebra/Blatt 2/IMG_20261016_175252139.jpg",
-    "Lineare Algebra/Blatt 2/Schaetzle_Blatt_01_Gruppe_1.pdf",
     "README.md",
-    "Theoretische Informatik/UE/loesung2.pdf",
-    "Rechnerarchitektur/VO/Kombinatorische Logik.md",
     "Einführung_Programmieren/UE/s02/s02e02.md",
     "Theoretische Informatik/VO/Theoretische Informatik Einleitung.md",
     "TODO.md",
     "Funktionale_Programmierung/VO/Daten, Repräsentation und Bäume.md",
-    "Funktionale_Programmierung/VO/Organisation und Einführung.md",
-    "Rechnerarchitektur/VO/Rechnerarchitektur Einfuehrung.md",
-    "Rechnerarchitektur/VO/Sequenzielle Logik.md",
-    "2026-10-28.md",
     "Rechnerarchitektur/VO/Images/Pasted image 20261028151211.png",
     "Rechnerarchitektur/VO/Images/Pasted image 20261028150510.png",
     "Rechnerarchitektur/VO/Images/Pasted image 20261028151224.png",
@@ -314,17 +311,6 @@
     "Rechnerarchitektur/VO/Images/Pasted image 20261028104802.png",
     "Rechnerarchitektur/VO/Images/Pasted image 20261028110515.png",
     "Unbenannt.canvas",
-    "Obsidian_Save/README.md",
-    "Einführung_Programmieren/UE/s04/Einfuehrung_Programmierung_Angabe_s04.md",
-    "Einführung_Programmieren/UE/s03/s03e03.md",
-    "Einführung_Programmieren/UE/s03/s03e01.md",
-    "Lineare Algebra/Blatt 3/Schaetzle_Blatt_03_Gruppe_1.md",
-    "Einführung_Programmieren/UE/s03/Einfuehrung_Programmierung_Angabe_s03.md",
-    "Funktionale_Programmierung/UE/01/Funktionale Programmierung UE 01.md",
-    "Funktionale_Programmierung/UE/02/Funktionale Programmierung UE 02.md",
-    "Rechnerarchitektur/UE/Zettel-01 Beantwortung Luna Schaetzle.md",
-    "Einführung_Programmieren/UE/s02/Einfuehrung_Programmierung_Angabe_s02.md",
-    "Funktionale_Programmierung/UE/fp_ps_00/dist-newstyle/tmp/src-13366/leancheck-1.0.4/doc/tutorial.md",
     "Unbenannt 4.canvas",
     "Unbenannt 3.canvas",
     "Unbenannt 2.canvas",

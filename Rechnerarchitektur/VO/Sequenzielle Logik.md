@@ -1,3 +1,4 @@
+#Rechnerarchitektur
 # Einführung 
 Bei der [[Kombinatorische Logik]] haben wir bisher nur mit akuten Änderungen gearbeitet. Das bedeutet, dass sich die Ausgabe eines Schaltkreises sofort ändert, sobald sich eine Eingabe ändert. Ein entscheidender Mangel dieser Ansätze ist jedoch die **Fähigkeit zur Speicherung von Informationen**. Wir benötigen also eine Methode, um Zustände zu speichern und über Zeit hinweg zu behalten.
 
@@ -15,24 +16,32 @@ Dadurch erhalten wir einen Flip Flop.
 
 Bei Flip Flop ist der Zustand 1|1 nicht Definiert.
 
-## Gatter Realisiert mit Transistoren (?)
+## Gatter Realisiert mit Transistoren 
 
-==ab S9==
+==ab S9/10==
 
 Flip Flops können aus 2 Transistoren gebaut werden
 
 ## Getaktetes RS-Flipflop
 ==slide 14==
 
+wird gemacht um den nicht erwünschten zustand zu verhindern. also das das RS Flip flop nicht anfängt zu Oszilieren.
 # Takt
 ==s15==
 
+## Realisierung einer „Pipeline“
+
 
 ## D-FlipFlop
-Wird in der Realität verwendet 
+Taktabhängiger Speicher
+
+## Flankenerkennung
+Wann ist eine positive Flanke?
 
 # Schaltwerke
 
 # Entwurf synchroner Schaltwerke
 ## Zustandsautomat
 
+moor-Automat: Langsammer aber sicherer
+Mealy-Automat: Schneller aber fehleranfälliger

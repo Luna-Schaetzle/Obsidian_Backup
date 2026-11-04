@@ -22,10 +22,10 @@ int main() {
     }
     //last
     if (height > 1){
-    while (height > 0) {
-     printf("x ");
-        height --;
-    }
+      while (height > 0) {
+       printf("x ");
+          height --;
+      }
     }
 
     return EXIT_SUCCESS;

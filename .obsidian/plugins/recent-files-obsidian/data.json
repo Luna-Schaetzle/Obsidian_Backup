@@ -1,44 +1,120 @@
 {
   "recentFiles": [
     {
-      "basename": "Einführung in die Programmierung 01–05",
-      "path": "Einführung_Programmieren/VO/Einführung in die Programmierung 01–05.md"
+      "basename": "UE-Funktional-Programmierung-03",
+      "path": "Funktionale_Programmierung/UE/03/UE-Funktional-Programmierung-03.pdf"
     },
     {
-      "basename": "Grimoire (Idee)",
-      "path": "Grimoire (Idee).md"
+      "basename": "UE_LinAlg1_Blatt_04",
+      "path": "Lineare Algebra/Blatt 4/UE_LinAlg1_Blatt_04.pdf"
     },
     {
-      "basename": "s04e03",
-      "path": "Einführung_Programmieren/UE/s04/s04e03.c"
-    },
-    {
-      "basename": "EidP-01-Einfuehrung",
-      "path": "Einführung_Programmieren/VO/EidP-01-Einfuehrung.pdf"
-    },
-    {
-      "basename": "s04e05",
-      "path": "Einführung_Programmieren/UE/s04/s04e05.c"
-    },
-    {
-      "basename": "s04e02",
-      "path": "Einführung_Programmieren/UE/s04/s04e02.c"
-    },
-    {
-      "basename": "s04e04",
-      "path": "Einführung_Programmieren/UE/s04/s04e04.c"
-    },
-    {
-      "basename": "s04e01",
-      "path": "Einführung_Programmieren/UE/s04/s04e01.md"
+      "basename": "vor_3_Theoretische_Informatik",
+      "path": "Theoretische Informatik/VO/vor_3_Theoretische_Informatik.pdf"
     },
     {
       "basename": "Theoretische Informatik-Blatt3",
       "path": "Theoretische Informatik/UE/Theoretische Informatik-Blatt3.pdf"
     },
     {
-      "basename": "vor_3_Theoretische_Informatik",
-      "path": "Theoretische Informatik/VO/vor_3_Theoretische_Informatik.pdf"
+      "basename": "Theoretische Informatik-blatt2",
+      "path": "Theoretische Informatik/UE/Theoretische Informatik-blatt2.pdf"
+    },
+    {
+      "basename": "loesung1 - Theoretische Informatik",
+      "path": "Theoretische Informatik/UE/loesung1 - Theoretische Informatik.pdf"
+    },
+    {
+      "basename": "Arithmetik",
+      "path": "Rechnerarchitektur/VO/Arithmetik.md"
+    },
+    {
+      "basename": "Theoretische Informatik-Blatt_1",
+      "path": "Theoretische Informatik/UE/Theoretische Informatik-Blatt_1.pdf"
+    },
+    {
+      "basename": "Linal",
+      "path": "Lineare Algebra/Linal.pdf"
+    },
+    {
+      "basename": "Kombinatorische Logik FlashCards",
+      "path": "Rechnerarchitektur/VO/Kombinatorische Logik FlashCards.md"
+    },
+    {
+      "basename": "Kombinatorische Logik",
+      "path": "Rechnerarchitektur/VO/Kombinatorische Logik.md"
+    },
+    {
+      "basename": "vor3_kombinatorische_logik_II",
+      "path": "Rechnerarchitektur/VO/vor3_kombinatorische_logik_II.pdf"
+    },
+    {
+      "basename": "Sequenzielle Logik",
+      "path": "Rechnerarchitektur/VO/Sequenzielle Logik.md"
+    },
+    {
+      "basename": "Flashcards_EidP_Midterm_1",
+      "path": "Einführung_Programmieren/VO/Flashcards_EidP_Midterm_1.md"
+    },
+    {
+      "basename": "vor1_einfuehrung",
+      "path": "Rechnerarchitektur/VO/vor1_einfuehrung.pdf"
+    },
+    {
+      "basename": "vor4_sequenzielle_logik",
+      "path": "Rechnerarchitektur/VO/vor4_sequenzielle_logik.pdf"
+    },
+    {
+      "basename": "Einführung in die Programmierung 01–05",
+      "path": "Einführung_Programmieren/VO/Einführung in die Programmierung 01–05.md"
+    },
+    {
+      "basename": "Exam Prep",
+      "path": "Vorlagen/Exam Prep.md"
+    },
+    {
+      "basename": "Lecture Note",
+      "path": "Vorlagen/Lecture Note.md"
+    },
+    {
+      "basename": "Reading Note",
+      "path": "Vorlagen/Reading Note.md"
+    },
+    {
+      "basename": "Class Notes (Cornell)",
+      "path": "Vorlagen/Class Notes (Cornell).md"
+    },
+    {
+      "basename": "Cornell Note",
+      "path": "Vorlagen/Cornell Note.md"
+    },
+    {
+      "basename": "s04e05",
+      "path": "Einführung_Programmieren/UE/s04/s04e05.c"
+    },
+    {
+      "basename": "s04e04",
+      "path": "Einführung_Programmieren/UE/s04/s04e04.c"
+    },
+    {
+      "basename": "s04e03",
+      "path": "Einführung_Programmieren/UE/s04/s04e03.c"
+    },
+    {
+      "basename": "Grimoire (Idee)",
+      "path": "Grimoire (Idee).md"
+    },
+    {
+      "basename": "EidP-01-Einfuehrung",
+      "path": "Einführung_Programmieren/VO/EidP-01-Einfuehrung.pdf"
+    },
+    {
+      "basename": "s04e02",
+      "path": "Einführung_Programmieren/UE/s04/s04e02.c"
+    },
+    {
+      "basename": "s04e01",
+      "path": "Einführung_Programmieren/UE/s04/s04e01.md"
     },
     {
       "basename": "Schaetzle_Blatt_02_Gruppe_1",
@@ -59,14 +135,6 @@
     {
       "basename": "zettel03-UE-Rechnerarchitektur",
       "path": "Rechnerarchitektur/UE/zettel03-UE-Rechnerarchitektur.pdf"
-    },
-    {
-      "basename": "Kombinatorische Logik",
-      "path": "Rechnerarchitektur/VO/Kombinatorische Logik.md"
-    },
-    {
-      "basename": "vor3_kombinatorische_logik_II",
-      "path": "Rechnerarchitektur/VO/vor3_kombinatorische_logik_II.pdf"
     },
     {
       "basename": "Test",

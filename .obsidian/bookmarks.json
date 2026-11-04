@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "type": "url",
+      "ctime": 1793693695502,
+      "url": "https://lms.uibk.ac.at/auth/Portal/0",
+      "title": "OpenOlat"
+    },
+    {
+      "type": "url",
+      "ctime": 1793781060797,
+      "url": "https://cl-teaching.uibk.ac.at/26w/fp/exercises.php?lan=de",
+      "title": "Functional Programming"
+    }
+  ]
+}
