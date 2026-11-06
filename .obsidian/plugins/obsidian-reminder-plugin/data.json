@@ -4,15 +4,27 @@
   "reminders": {
     "README.md": [
       {
-        "title": "Skript für C-Programmierungs Midterm Test",
-        "time": "2026-11-06",
-        "rowNumber": 7,
+        "title": "Lineare Algebra Blatt 04",
+        "time": "2026-11-08",
+        "rowNumber": 19,
         "muted": false
       },
       {
-        "title": "Theoretische Informatik",
-        "time": "2026-11-05",
-        "rowNumber": 18,
+        "title": "Funktionale Programmierung Aufgabe 03",
+        "time": "2026-11-10",
+        "rowNumber": 20,
+        "muted": false
+      },
+      {
+        "title": "C-Programmierung UE-Aufgabe s05",
+        "time": "2026-11-16",
+        "rowNumber": 21,
+        "muted": false
+      },
+      {
+        "title": "Rechnerarchitektur Blatt04",
+        "time": "2026-11-11",
+        "rowNumber": 22,
         "muted": false
       }
     ]

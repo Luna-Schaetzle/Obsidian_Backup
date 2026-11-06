@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "UE-Funktional-Programmierung-03",
-      "path": "Funktionale_Programmierung/UE/03/UE-Funktional-Programmierung-03.pdf"
+      "basename": "README",
+      "path": "README.md"
     },
     {
-      "basename": "UE_LinAlg1_Blatt_04",
-      "path": "Lineare Algebra/Blatt 4/UE_LinAlg1_Blatt_04.pdf"
+      "basename": "Daten, Repräsentation und Bäume",
+      "path": "Funktionale_Programmierung/VO/Daten, Repräsentation und Bäume.md"
+    },
+    {
+      "basename": "Theoretische Informatik-Blatt3",
+      "path": "Theoretische Informatik/UE/Theoretische Informatik-Blatt3.pdf"
     },
     {
       "basename": "vor_3_Theoretische_Informatik",
       "path": "Theoretische Informatik/VO/vor_3_Theoretische_Informatik.pdf"
     },
     {
-      "basename": "Theoretische Informatik-Blatt3",
-      "path": "Theoretische Informatik/UE/Theoretische Informatik-Blatt3.pdf"
+      "basename": "UE_LinAlg1_Blatt_04",
+      "path": "Lineare Algebra/Blatt 4/UE_LinAlg1_Blatt_04.pdf"
+    },
+    {
+      "basename": "Linal",
+      "path": "Lineare Algebra/Linal.pdf"
+    },
+    {
+      "basename": "UE-Funktional-Programmierung-03",
+      "path": "Funktionale_Programmierung/UE/03/UE-Funktional-Programmierung-03.pdf"
+    },
+    {
+      "basename": "Kombinatorische Logik",
+      "path": "Rechnerarchitektur/VO/Kombinatorische Logik.md"
+    },
+    {
+      "basename": "vor3_kombinatorische_logik_II",
+      "path": "Rechnerarchitektur/VO/vor3_kombinatorische_logik_II.pdf"
     },
     {
       "basename": "Theoretische Informatik-blatt2",
@@ -33,20 +53,8 @@
       "path": "Theoretische Informatik/UE/Theoretische Informatik-Blatt_1.pdf"
     },
     {
-      "basename": "Linal",
-      "path": "Lineare Algebra/Linal.pdf"
-    },
-    {
       "basename": "Kombinatorische Logik FlashCards",
       "path": "Rechnerarchitektur/VO/Kombinatorische Logik FlashCards.md"
-    },
-    {
-      "basename": "Kombinatorische Logik",
-      "path": "Rechnerarchitektur/VO/Kombinatorische Logik.md"
-    },
-    {
-      "basename": "vor3_kombinatorische_logik_II",
-      "path": "Rechnerarchitektur/VO/vor3_kombinatorische_logik_II.pdf"
     },
     {
       "basename": "Sequenzielle Logik",
@@ -127,10 +135,6 @@
     {
       "basename": "Schaetzle_Blatt_01_Gruppe_1",
       "path": "Lineare Algebra/Blatt 2/Schaetzle_Blatt_01_Gruppe_1.pdf"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "zettel03-UE-Rechnerarchitektur",

@@ -329,4 +329,4 @@ Ein Dekodierer mit Enable-Eingang ist ein Demultiplexer, wenn man den Enable-Ein
 - einer **UND-Ebene**, die Produktterme bildet,
 - einer **ODER-Ebene**, die diese zu Summen verknüpft.
 
-Damit lässt sich jede Boolesche Funktion in **disjunktiver Form (DNF)** realisieren. Die Verbindungen zwischen den Leitungen werden einmalig durch das Durchbrennen von Sicherungen (**Fuses**) oder das Herstellen von Verbindungen (**Antifuses**) festgelegt und können danach **nicht mehr verändert** werden.</new_str>
+Damit lässt sich jede Boolesche Funktion in **disjunktiver Form (DNF)** realisieren. Die Verbindungen zwischen den Leitungen werden einmalig durch das Durchbrennen von Sicherungen (**Fuses**) oder das Herstellen von Verbindungen (**Antifuses**) festgelegt und können danach **nicht mehr verändert** werden.

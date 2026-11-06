@@ -8,19 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "69809a816eebdabf",
+            "id": "1b678fd3fec3f580",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Funktionale_Programmierung/UE/03/UE-Funktional-Programmierung-03.pdf"
+                "file": "Lineare Algebra/Blatt 4/UE_LinAlg1_Blatt_04.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "UE-Funktional-Programmierung-03"
+              "title": "UE_LinAlg1_Blatt_04"
             }
           },
           {
-            "id": "d4790762baadf5ac",
+            "id": "3f82ff8c61157b89",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Lineare Algebra/Linal.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Linal"
+            }
+          },
+          {
+            "id": "323659d27f7c45e8",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -32,7 +44,7 @@
             }
           },
           {
-            "id": "17cd5cbe5a311e30",
+            "id": "4885a350ce1edda8",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -42,8 +54,23 @@
               "icon": "lucide-file-text",
               "title": "vor_3_Theoretische_Informatik"
             }
+          },
+          {
+            "id": "86b8f53542e9cbf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -262,23 +289,24 @@
       "flashcard-learning:Review flashcards": false
     }
   },
-  "active": "69809a816eebdabf",
+  "active": "86b8f53542e9cbf1",
   "lastOpenFiles": [
-    "Lineare Algebra/Blatt 4/UE_LinAlg1_Blatt_04.pdf",
-    "Theoretische Informatik/VO/vor_3_Theoretische_Informatik.pdf",
+    "Funktionale_Programmierung/VO/Daten, Repräsentation und Bäume.md",
+    "README.md",
     "Theoretische Informatik/UE/Theoretische Informatik-Blatt3.pdf",
-    "Theoretische Informatik/UE/Theoretische Informatik-blatt2.pdf",
-    "Theoretische Informatik/UE/loesung1 - Theoretische Informatik.pdf",
-    "Dashboard.md",
+    "Theoretische Informatik/VO/vor_3_Theoretische_Informatik.pdf",
+    "Lineare Algebra/Blatt 4/UE_LinAlg1_Blatt_04.pdf",
+    "Funktionale_Programmierung/UE/03/fp_ps_03/src/Template_03.hs~",
+    "Lineare Algebra/Linal.pdf",
+    "Funktionale_Programmierung/UE/03/fp_ps_03/src/Template03.hs",
+    "Funktionale_Programmierung/UE/03/fp_ps_03/dist-newstyle/build/x86_64-linux/ghc-9.10.3/FP-Proseminar-Tests-0.1.0.0/x/Main/cache/registration",
     "Funktionale_Programmierung/UE/03/UE-Funktional-Programmierung-03.pdf",
-    "Rechnerarchitektur/VO/Arithmetik.md",
-    "Funktionale_Programmierung/UE/03/fp_ps_03/src/Tests_03.hs",
-    "Funktionale_Programmierung/UE/03/fp_ps_03/src/Template_03.hs",
-    "Funktionale_Programmierung/UE/03/fp_ps_03/src/Main.hs",
-    "Funktionale_Programmierung/UE/03/fp_ps_03/src",
-    "Funktionale_Programmierung/UE/03/fp_ps_03/fp_ps.cabal",
-    "Rechnerarchitektur/VO/Kombinatorische Logik FlashCards.md",
+    "Funktionale_Programmierung/UE/03/fp_ps_03/dist-newstyle/build/x86_64-linux/ghc-9.10.3/FP-Proseminar-Tests-0.1.0.0/x/Main/cache/build",
+    "Funktionale_Programmierung/UE/03/fp_ps_03/dist-newstyle/build/x86_64-linux/ghc-9.10.3/FP-Proseminar-Tests-0.1.0.0/x/Main/build/Main/Main",
     "Rechnerarchitektur/VO/Kombinatorische Logik.md",
+    "Dashboard.md",
+    "Rechnerarchitektur/VO/Arithmetik.md",
+    "Rechnerarchitektur/VO/Kombinatorische Logik FlashCards.md",
     "Rechnerarchitektur/VO/Sequenzielle Logik.md",
     "Einführung_Programmieren/VO/Flashcards_EidP_Midterm_1.md",
     "Einführung_Programmieren/VO/Einführung in die Programmierung 01–05.md",
@@ -296,11 +324,9 @@
     "Einführung_Programmieren/UE/s04/s04e01.md",
     "Lineare Algebra/Blatt 2/Schaetzle_Blatt_02_Gruppe_1.md",
     "Lineare Algebra/Blatt 2/IMG_20261016_175252139.jpg",
-    "README.md",
     "Einführung_Programmieren/UE/s02/s02e02.md",
     "Theoretische Informatik/VO/Theoretische Informatik Einleitung.md",
     "TODO.md",
-    "Funktionale_Programmierung/VO/Daten, Repräsentation und Bäume.md",
     "Rechnerarchitektur/VO/Images/Pasted image 20261028151211.png",
     "Rechnerarchitektur/VO/Images/Pasted image 20261028150510.png",
     "Rechnerarchitektur/VO/Images/Pasted image 20261028151224.png",
