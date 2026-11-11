@@ -11,14 +11,12 @@
             "id": "821869ed3347d985",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Rechnerarchitektur/VO/Sequenzielle Logik.md",
-                "mode": "source",
-                "source": false
+                "file": "Rechnerarchitektur/VO/Images/Sequenzielle Logik s15.png"
               },
-              "icon": "lucide-file",
-              "title": "Sequenzielle Logik"
+              "icon": "lucide-image",
+              "title": "Sequenzielle Logik s15"
             }
           }
         ]
@@ -270,21 +268,20 @@
       "flashcard-learning:Review flashcards": false
     }
   },
-  "active": "821869ed3347d985",
+  "active": "d22ec643bad79d95",
   "lastOpenFiles": [
-    "Sequenzielle Logik-s33.png",
-    "Sequenzielle Logik-s31.png",
-    "Sequenzielle Logik-s28.png",
-    "Sequenzielle Logiks-23.png",
-    "Sequenzielle Logik-s22-1.png",
-    "Sequenzielle Logik-s25.png",
-    "Sequenzielle Logik-s22.png",
-    "Sequenzielle Logik-s21.png",
-    "Sequenzielle Logik-s20.png",
-    "Sequenzielle Logik s15.png",
-    "Sequenzielle Logik-s14.png",
-    "Rechnerarchitektur/VO/vor4_sequenzielle_logik.pdf",
     "Rechnerarchitektur/VO/Sequenzielle Logik.md",
+    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s33.png",
+    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s31.png",
+    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s28.png",
+    "Rechnerarchitektur/VO/Images/Sequenzielle Logiks-23.png",
+    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s22-1.png",
+    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s25.png",
+    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s22.png",
+    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s21.png",
+    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s20.png",
+    "Rechnerarchitektur/VO/Images/Sequenzielle Logik s15.png",
+    "Rechnerarchitektur/VO/vor4_sequenzielle_logik.pdf",
     "Slide 2.md",
     "Rechnerarchitektur/VO/Kombinatorische Logik.md",
     "Rechnerarchitektur/VO/vor1_einfuehrung.pdf",
