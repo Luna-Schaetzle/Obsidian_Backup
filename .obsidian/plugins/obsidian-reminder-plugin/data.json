@@ -4,27 +4,9 @@
   "reminders": {
     "README.md": [
       {
-        "title": "Lineare Algebra Blatt 04",
-        "time": "2026-11-08",
-        "rowNumber": 19,
-        "muted": false
-      },
-      {
-        "title": "Funktionale Programmierung Aufgabe 03",
-        "time": "2026-11-10",
-        "rowNumber": 20,
-        "muted": false
-      },
-      {
         "title": "C-Programmierung UE-Aufgabe s05",
         "time": "2026-11-16",
         "rowNumber": 21,
-        "muted": false
-      },
-      {
-        "title": "Rechnerarchitektur Blatt04",
-        "time": "2026-11-11",
-        "rowNumber": 22,
         "muted": false
       }
     ]

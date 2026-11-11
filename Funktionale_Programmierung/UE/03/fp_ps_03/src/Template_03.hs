@@ -1,7 +1,7 @@
 module Template_03 where
 
 -- Keine Änderungen oberhalb dieser Zeile sind erlaubt!
-import Data.List (max)
+import Data.List ()
 
 -- Aufgabe 1: Pattern Matching
 data Course
@@ -33,16 +33,20 @@ Muster ii) 2
 data Date = DMY Int Int Integer deriving (Show)
 data List = Cons Integer List | Empty deriving (Show)
 
+--Prüft nur Tag und Monat (Jahr egal)
 probablyValidDate :: Date -> Bool
 probablyValidDate (DMY d m _) = d >= 1 && d <= 31 && m >= 1 && m <= 12
 
+--Maximum der Liste; Fehler: wenn die Eingabe selbst leer ist
 maxList :: List -> Integer
-maxList Empty = error "maxList on empty list"
-maxList (Cons x l) = max x (maxList l)
+maxList Empty          = error "maxList on empty list"
+maxList (Cons x Empty) = x                  --Rekursions stop 
+maxList (Cons x l)     = max x (maxList l)
 
+-- Addiert n auf jedes zweite Element 
 addSecond :: Integer -> List -> List
 addSecond _ Empty                       = Empty
-addSecond _ l@(Cons _ Empty)            = l
+addSecond _ l@(Cons _ Empty)            = l   --letztes Element unverändert
 addSecond n (Cons x (Cons y l))
   = Cons x (Cons (y + n) (addSecond n l))
 
@@ -54,6 +58,7 @@ data QuadTree
   | Node QuadTree QuadTree QuadTree QuadTree
   deriving (Show, Eq)
 
+-- Anteil schwarzer Fläche: Mittelwert der vier Teilbäume
 blackRatio :: QuadTree -> Double
 blackRatio Black  = 1.0
 blackRatio White  = 0.0
@@ -64,18 +69,21 @@ blackRatio (Node a b c d)
 -- compressQuad :: QuadTree -> QuadTree -> QuadTree -> QuadTree -> QuadTree
 -- compressQuad _ _ _ _ = undefined
 
+-- Fasst vier gleiche Teilbäume zu einem einzigen zusammen
 compress :: QuadTree -> QuadTree
 compress Black  = Black
 compress White  = White
 compress (Node a b c d)
-  | a' == b' && b' == c' && c' == d'  = a'
+  | a' == b' && b' == c' && c' == d'  = a'   -- alle gleich -> zusammenfassen
   | otherwise                         = Node a' b' c' d'
   where
+    -- erst die Teilbäume komprimieren (bottom-up)
     a' = compress a
     b' = compress b
     c' = compress c
     d' = compress d
 
+-- Überlagert zwei Bilder: Schwarz gewinnt, Weiß ist durchsichtig
 overlay :: QuadTree -> QuadTree -> QuadTree
 overlay Black _ = Black
 overlay _ Black = Black

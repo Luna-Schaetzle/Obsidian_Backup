@@ -11,6 +11,12 @@
       "ctime": 1793781060797,
       "url": "https://cl-teaching.uibk.ac.at/26w/fp/exercises.php?lan=de",
       "title": "Functional Programming"
+    },
+    {
+      "type": "url",
+      "ctime": 1794387067687,
+      "url": "https://ifi-armsim.uibk.ac.at/",
+      "title": "RA-Sims"
     }
   ]
 }

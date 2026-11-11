@@ -1,4 +1,4 @@
-#Rechnerarchitektur 
+#Rechnerarchitektur #Logik 
 
 - [[#Vor-/Nachteile Analogrechner | Digitalrechner|Vor-/Nachteile Analogrechner | Digitalrechner]]
 - [[#Kombinatorische Logik|Kombinatorische Logik]]

@@ -1,40 +1,124 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "Sequenzielle Logik",
+      "path": "Rechnerarchitektur/VO/Sequenzielle Logik.md"
     },
     {
-      "basename": "Daten, Repräsentation und Bäume",
-      "path": "Funktionale_Programmierung/VO/Daten, Repräsentation und Bäume.md"
-    },
-    {
-      "basename": "Theoretische Informatik-Blatt3",
-      "path": "Theoretische Informatik/UE/Theoretische Informatik-Blatt3.pdf"
-    },
-    {
-      "basename": "vor_3_Theoretische_Informatik",
-      "path": "Theoretische Informatik/VO/vor_3_Theoretische_Informatik.pdf"
-    },
-    {
-      "basename": "UE_LinAlg1_Blatt_04",
-      "path": "Lineare Algebra/Blatt 4/UE_LinAlg1_Blatt_04.pdf"
-    },
-    {
-      "basename": "Linal",
-      "path": "Lineare Algebra/Linal.pdf"
-    },
-    {
-      "basename": "UE-Funktional-Programmierung-03",
-      "path": "Funktionale_Programmierung/UE/03/UE-Funktional-Programmierung-03.pdf"
+      "basename": "vor4_sequenzielle_logik",
+      "path": "Rechnerarchitektur/VO/vor4_sequenzielle_logik.pdf"
     },
     {
       "basename": "Kombinatorische Logik",
       "path": "Rechnerarchitektur/VO/Kombinatorische Logik.md"
     },
     {
+      "basename": "vor1_einfuehrung",
+      "path": "Rechnerarchitektur/VO/vor1_einfuehrung.pdf"
+    },
+    {
+      "basename": "Arithmetik",
+      "path": "Rechnerarchitektur/VO/Arithmetik.md"
+    },
+    {
+      "basename": "vor5_arithmetik_I",
+      "path": "Rechnerarchitektur/VO/vor5_arithmetik_I.pdf"
+    },
+    {
+      "basename": "Einführung in die Programmierung 01–05",
+      "path": "Einführung_Programmieren/VO/Einführung in die Programmierung 01–05.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "C Cheat Sheet",
+      "path": "C Cheat Sheet.md"
+    },
+    {
+      "basename": "C Bitoperatoren – Cheat Sheet",
+      "path": "Einführung_Programmieren/VO/C Bitoperatoren – Cheat Sheet.md"
+    },
+    {
+      "basename": "EidP-05-Kontrollstrukturen",
+      "path": "Einführung_Programmieren/VO/EidP-05-Kontrollstrukturen.pdf"
+    },
+    {
+      "basename": "EidP-04-OperatorenAusdruecke",
+      "path": "Einführung_Programmieren/VO/EidP-04-OperatorenAusdruecke.pdf"
+    },
+    {
+      "basename": "EidP-03-VariablenDatentypen",
+      "path": "Einführung_Programmieren/VO/EidP-03-VariablenDatentypen.pdf"
+    },
+    {
+      "basename": "EidP-01-Einfuehrung",
+      "path": "Einführung_Programmieren/VO/EidP-01-Einfuehrung.pdf"
+    },
+    {
+      "basename": "EidP-02-Vorschau",
+      "path": "Einführung_Programmieren/VO/EidP-02-Vorschau.pdf"
+    },
+    {
+      "basename": "UE_LinAlg1_Blatt_04",
+      "path": "Lineare Algebra/Blatt 4/UE_LinAlg1_Blatt_04.pdf"
+    },
+    {
+      "basename": "Flashcards_EidP_Midterm_1",
+      "path": "Einführung_Programmieren/VO/Flashcards_EidP_Midterm_1.md"
+    },
+    {
+      "basename": "ASCII-Tabelle",
+      "path": "ASCII-Tabelle.md"
+    },
+    {
+      "basename": "Zahlendarstellung",
+      "path": "Einführung_Programmieren/VO/Zahlendarstellung.pdf"
+    },
+    {
+      "basename": "blatt4-ThInfi",
+      "path": "Theoretische Informatik/UE/blatt4-ThInfi.pdf"
+    },
+    {
+      "basename": "zettel04",
+      "path": "Rechnerarchitektur/UE/zettel04.pdf"
+    },
+    {
+      "basename": "Schaetzle_Blatt_04_Gruppe_1",
+      "path": "Lineare Algebra/Blatt 4/Schaetzle_Blatt_04_Gruppe_1.pdf"
+    },
+    {
+      "basename": "Schaetzle_Blatt_04_Gruppe_1",
+      "path": "Lineare Algebra/Blatt 4/Schaetzle_Blatt_04_Gruppe_1.md"
+    },
+    {
+      "basename": "Funktionale Programming - Woche - 02x1",
+      "path": "Funktionale_Programmierung/VO/Funktionale Programming - Woche - 02x1.pdf"
+    },
+    {
+      "basename": "Funktionale Programming - Woche - 01x1",
+      "path": "Funktionale_Programmierung/VO/Funktionale Programming - Woche - 01x1.pdf"
+    },
+    {
+      "basename": "skriptum-Theoretische-Informatik",
+      "path": "Theoretische Informatik/VO/skriptum-Theoretische-Informatik.pdf"
+    },
+    {
+      "basename": "vor_4_Theoretische_Informatik",
+      "path": "Theoretische Informatik/VO/vor_4_Theoretische_Informatik.pdf"
+    },
+    {
       "basename": "vor3_kombinatorische_logik_II",
       "path": "Rechnerarchitektur/VO/vor3_kombinatorische_logik_II.pdf"
+    },
+    {
+      "basename": "vor_3_Theoretische_Informatik",
+      "path": "Theoretische Informatik/VO/vor_3_Theoretische_Informatik.pdf"
+    },
+    {
+      "basename": "Theoretische Informatik-Blatt3",
+      "path": "Theoretische Informatik/UE/Theoretische Informatik-Blatt3.pdf"
     },
     {
       "basename": "Theoretische Informatik-blatt2",
@@ -45,36 +129,40 @@
       "path": "Theoretische Informatik/UE/loesung1 - Theoretische Informatik.pdf"
     },
     {
-      "basename": "Arithmetik",
-      "path": "Rechnerarchitektur/VO/Arithmetik.md"
-    },
-    {
       "basename": "Theoretische Informatik-Blatt_1",
       "path": "Theoretische Informatik/UE/Theoretische Informatik-Blatt_1.pdf"
     },
     {
+      "basename": "EidP-06-Funktionen",
+      "path": "Einführung_Programmieren/VO/EidP-06-Funktionen.pdf"
+    },
+    {
+      "basename": "Linal",
+      "path": "Lineare Algebra/Linal.pdf"
+    },
+    {
+      "basename": "Schaetzle_Blatt_03_Gruppe_1",
+      "path": "Lineare Algebra/Blatt 3/Schaetzle_Blatt_03_Gruppe_1.pdf"
+    },
+    {
+      "basename": "IMG_20261107_142449311",
+      "path": "Lineare Algebra/Blatt 4/IMG_20261107_142449311.jpg"
+    },
+    {
+      "basename": "Schaetzle_Blatt_03_Gruppe_1 1",
+      "path": "Lineare Algebra/Blatt 3/Schaetzle_Blatt_03_Gruppe_1 1.pdf"
+    },
+    {
+      "basename": "Daten, Repräsentation und Bäume",
+      "path": "Funktionale_Programmierung/VO/Daten, Repräsentation und Bäume.md"
+    },
+    {
+      "basename": "UE-Funktional-Programmierung-03",
+      "path": "Funktionale_Programmierung/UE/03/UE-Funktional-Programmierung-03.pdf"
+    },
+    {
       "basename": "Kombinatorische Logik FlashCards",
       "path": "Rechnerarchitektur/VO/Kombinatorische Logik FlashCards.md"
-    },
-    {
-      "basename": "Sequenzielle Logik",
-      "path": "Rechnerarchitektur/VO/Sequenzielle Logik.md"
-    },
-    {
-      "basename": "Flashcards_EidP_Midterm_1",
-      "path": "Einführung_Programmieren/VO/Flashcards_EidP_Midterm_1.md"
-    },
-    {
-      "basename": "vor1_einfuehrung",
-      "path": "Rechnerarchitektur/VO/vor1_einfuehrung.pdf"
-    },
-    {
-      "basename": "vor4_sequenzielle_logik",
-      "path": "Rechnerarchitektur/VO/vor4_sequenzielle_logik.pdf"
-    },
-    {
-      "basename": "Einführung in die Programmierung 01–05",
-      "path": "Einführung_Programmieren/VO/Einführung in die Programmierung 01–05.md"
     },
     {
       "basename": "Exam Prep",
@@ -107,74 +195,6 @@
     {
       "basename": "s04e03",
       "path": "Einführung_Programmieren/UE/s04/s04e03.c"
-    },
-    {
-      "basename": "Grimoire (Idee)",
-      "path": "Grimoire (Idee).md"
-    },
-    {
-      "basename": "EidP-01-Einfuehrung",
-      "path": "Einführung_Programmieren/VO/EidP-01-Einfuehrung.pdf"
-    },
-    {
-      "basename": "s04e02",
-      "path": "Einführung_Programmieren/UE/s04/s04e02.c"
-    },
-    {
-      "basename": "s04e01",
-      "path": "Einführung_Programmieren/UE/s04/s04e01.md"
-    },
-    {
-      "basename": "Schaetzle_Blatt_02_Gruppe_1",
-      "path": "Lineare Algebra/Blatt 2/Schaetzle_Blatt_02_Gruppe_1.md"
-    },
-    {
-      "basename": "IMG_20261016_175252139",
-      "path": "Lineare Algebra/Blatt 2/IMG_20261016_175252139.jpg"
-    },
-    {
-      "basename": "Schaetzle_Blatt_01_Gruppe_1",
-      "path": "Lineare Algebra/Blatt 2/Schaetzle_Blatt_01_Gruppe_1.pdf"
-    },
-    {
-      "basename": "zettel03-UE-Rechnerarchitektur",
-      "path": "Rechnerarchitektur/UE/zettel03-UE-Rechnerarchitektur.pdf"
-    },
-    {
-      "basename": "Test",
-      "path": "Einführung_Programmieren/UE/s02/Test.c"
-    },
-    {
-      "basename": "s02e06",
-      "path": "Einführung_Programmieren/UE/s02/s02e06.c"
-    },
-    {
-      "basename": "s02e05",
-      "path": "Einführung_Programmieren/UE/s02/s02e05.c"
-    },
-    {
-      "basename": "s02e04",
-      "path": "Einführung_Programmieren/UE/s02/s02e04.c"
-    },
-    {
-      "basename": "s02e03_a",
-      "path": "Einführung_Programmieren/UE/s02/s02e03_a.c"
-    },
-    {
-      "basename": "s02e02",
-      "path": "Einführung_Programmieren/UE/s02/s02e02.txt"
-    },
-    {
-      "basename": "s02e02",
-      "path": "Einführung_Programmieren/UE/s02/s02e02.md"
-    },
-    {
-      "basename": "vor_2_Theoretische_Informatik",
-      "path": "Theoretische Informatik/VO/vor_2_Theoretische_Informatik.pdf"
-    },
-    {
-      "basename": "s00e01",
-      "path": "Einführung_Programmieren/UE/s00/s00e01.c"
     }
   ],
   "omittedPaths": [],
