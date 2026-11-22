@@ -4,9 +4,21 @@
   "reminders": {
     "README.md": [
       {
-        "title": "C-Programmierung UE-Aufgabe s05",
-        "time": "2026-11-16",
-        "rowNumber": 21,
+        "title": "Rechnerarchitektur Blatt 06",
+        "time": "2026-11-25",
+        "rowNumber": 30,
+        "muted": false
+      },
+      {
+        "title": "Funktionale Programmierung Blatt 05",
+        "time": "2026-11-24",
+        "rowNumber": 31,
+        "muted": false
+      },
+      {
+        "title": "Theoretische Informatik Blatt 06",
+        "time": "2026-11-27 12:00",
+        "rowNumber": 32,
         "muted": false
       }
     ]

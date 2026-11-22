@@ -4,52 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "a91ad6b0e2f48be3",
+        "id": "33dcaadca7c603d2",
         "type": "tabs",
         "children": [
           {
-            "id": "821869ed3347d985",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Rechnerarchitektur/VO/Images/Sequenzielle Logik s15.png"
-              },
-              "icon": "lucide-image",
-              "title": "Sequenzielle Logik s15"
-            }
-          }
-        ]
-      },
-      {
-        "id": "446449882e56c110",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0d7314e843997233",
+            "id": "f7de24d6f99be693",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Rechnerarchitektur/VO/vor4_sequenzielle_logik.pdf"
+                "file": "Lineare Algebra/Blatt 06/UE_LinAlg1_Blatt_06.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "vor4_sequenzielle_logik"
+              "title": "UE_LinAlg1_Blatt_06"
             }
           },
           {
-            "id": "83283c984ad85997",
+            "id": "40ecb709270f1dfb",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Rechnerarchitektur/VO/vor5_arithmetik_I.pdf"
+                "file": "Lineare Algebra/Linal.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "vor5_arithmetik_I"
+              "title": "Linal"
+            }
+          },
+          {
+            "id": "15116356582cfddd",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Lineare Algebra/Blatt 5/Schaetzle_Blatt_05_Gruppe_1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Schaetzle_Blatt_05_Gruppe_1"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -270,37 +265,43 @@
   },
   "active": "d22ec643bad79d95",
   "lastOpenFiles": [
-    "Rechnerarchitektur/VO/Sequenzielle Logik.md",
-    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s33.png",
-    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s31.png",
-    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s28.png",
-    "Rechnerarchitektur/VO/Images/Sequenzielle Logiks-23.png",
-    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s22-1.png",
-    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s25.png",
-    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s22.png",
-    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s21.png",
-    "Rechnerarchitektur/VO/Images/Sequenzielle Logik-s20.png",
-    "Rechnerarchitektur/VO/Images/Sequenzielle Logik s15.png",
-    "Rechnerarchitektur/VO/vor4_sequenzielle_logik.pdf",
-    "Slide 2.md",
-    "Rechnerarchitektur/VO/Kombinatorische Logik.md",
-    "Rechnerarchitektur/VO/vor1_einfuehrung.pdf",
-    "Rechnerarchitektur/VO/Arithmetik.md",
-    "Funktionale_Programmierung/UE/04/fp_ps_04/src/Tests_04.hs",
-    "Funktionale_Programmierung/UE/04/fp_ps_04/src/Template_04.hs",
-    "Funktionale_Programmierung/UE/04/fp_ps_04/src/Main.hs",
-    "Funktionale_Programmierung/UE/04/fp_ps_04/src",
-    "Funktionale_Programmierung/UE/04/fp_ps_04/fp_ps.cabal",
-    "Funktionale_Programmierung/UE/04/fp_ps_04",
-    "Funktionale_Programmierung/UE/04/04.pdf",
-    "Funktionale_Programmierung/UE/04",
-    "Einführung_Programmieren/VO/Einführung in die Programmierung 01–05.md",
+    "Lineare Algebra/Blatt 06/Schaetzle_Blatt_05_Gruppe_1.md",
+    "Lineare Algebra/Blatt 06/Schaetzle_Blatt_05_Gruppe_1.pdf",
+    "Lineare Algebra/Blatt 5/Schaetzle_Blatt_05_Gruppe_1.pdf",
+    "Lineare Algebra/Blatt 4/UE_LinAlg1_Blatt_04.pdf",
+    "Lineare Algebra/Blatt 06/IMG_20261122_144829860.jpg",
+    "Lineare Algebra/Blatt 06/UE_LinAlg1_Blatt_06.pdf",
+    "Lineare Algebra/Blatt 06/IMG_20261122_144844327.jpg",
+    "Lineare Algebra/Blatt 06/IMG_20261122_144838500.jpg",
+    "Lineare Algebra/Blatt 06/IMG_20261122_144835550.jpg",
+    "Unbenannt.md",
+    "Lineare Algebra/Linal.pdf",
+    "Theoretische Informatik/UE/blatt6.pdf",
+    "Funktionale_Programmierung/UE/05/05.pdf",
+    "Funktionale_Programmierung/UE/05/fp_ps_05/dist-newstyle/build/x86_64-linux/ghc-9.10.3/FP-Proseminar-Tests-0.1.0.0/x/Main/build/Main/Main-tmp/Template_05.o.tmp",
+    "Funktionale_Programmierung/UE/05/fp_ps_05/dist-newstyle/build/x86_64-linux/ghc-9.10.3/FP-Proseminar-Tests-0.1.0.0/x/Main/build/Main/Main-tmp/Tests_05.o.tmp",
+    "Funktionale_Programmierung/UE/05/fp_ps_05/dist-newstyle/cache/up-to-date",
     "README.md",
+    "Befehlsatzarchitektur.md",
     "C Cheat Sheet.md",
+    "ASCII-Tabelle.md",
+    "Rechnerarchitektur/VO/Arithmetik.md",
+    "Theoretische Informatik/VO/Theoretische Informatik Einleitung.md",
+    "Pasted image 20261118095406.png",
+    "Lineare Algebra/Blatt 5/Schaetzle_Blatt_05_Gruppe_1.md",
+    "Lineare Algebra/Blatt 5/IMG_20261115_121711412.jpg",
+    "Lineare Algebra/Blatt 5/IMG_20261115_121745049.jpg",
+    "Lineare Algebra/Blatt 5/IMG_20261115_121741682.jpg",
+    "Lineare Algebra/Blatt 5/IMG_20261115_121734386.jpg",
+    "Lineare Algebra/Blatt 5/IMG_20261115_121729496.jpg",
+    "Einführung_Programmieren/UE/s05/s05e04.md",
+    "Einführung_Programmieren/VO/Einführung in die Programmierung 01–05.md",
+    "Rechnerarchitektur/VO/Sequenzielle Logik.md",
+    "Rechnerarchitektur/VO/Kombinatorische Logik.md",
+    "Lineare Algebra/Blatt 4/Schaetzle_Blatt_04_Gruppe_1.md",
+    "Slide 2.md",
     "Einführung_Programmieren/VO/C Bitoperatoren – Cheat Sheet.md",
     "Einführung_Programmieren/VO/Flashcards_EidP_Midterm_1.md",
-    "ASCII-Tabelle.md",
-    "Lineare Algebra/Blatt 4/Schaetzle_Blatt_04_Gruppe_1.md",
     "Funktionale_Programmierung/VO/Daten, Repräsentation und Bäume.md",
     "Dashboard.md",
     "Rechnerarchitektur/VO/Kombinatorische Logik FlashCards.md",
@@ -309,12 +310,6 @@
     "Vorlagen/Lecture Note.md",
     "Vorlagen/Reading Note.md",
     "Vorlagen/Class Notes (Cornell).md",
-    "Vorlagen/Cornell Note.md",
-    "Vorlagen/Unbenannt.md",
-    "Portal.md",
-    "Lecture 01 - Descriptive Statistics.md",
-    "Grimoire (Idee).md",
-    "Start Here.md",
     "Unbenannt.canvas",
     "Unbenannt 4.canvas",
     "Unbenannt 3.canvas",
