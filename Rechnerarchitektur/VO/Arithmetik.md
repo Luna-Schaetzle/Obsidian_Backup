@@ -76,3 +76,14 @@ Meaning: 421.1/2 1/4 1/8
 # Gleitkommadarstellung
 
 ![[Pasted image 20261118095406.png]]
+
+
+m MAthise ist das hinter dem Kommer 
+
+ganz vorne sind immer zwei Zahlen das vorzeichen bit und der wert vor dem Komma 
+
+falls bei der Multiplikation zu viel addiert wird also vor dem kommer mehr als zwei zahlen dann muss normalisiert wreden -> kommerverschieben das wieder zwei vor dem Komma sind
+
+[Wissen woher der Bias kommt und grundsätzlich wie die Zahlen aufgebaut sind also nicht im detail für die Prüfung]
+
+

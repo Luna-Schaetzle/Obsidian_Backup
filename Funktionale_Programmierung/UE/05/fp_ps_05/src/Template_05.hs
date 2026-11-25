@@ -28,7 +28,7 @@ eulerList n = eulerListAux (factorialList n)
     eulerListAux (f:fs) = 1 / fromIntegral f + eulerListAux fs
 
 eulerConvergence :: [Double]
-eulerConvergence = map eulerList [0..]
+eulerConvergence = map eulerList [0 .. 15]
 
 -----------------------------------------------------------------
 -- Aufgabe 2) Exaktes Rechnen mit Brüchen
@@ -85,21 +85,20 @@ eulerFrac n
 eulerFracAux 1 (1, 1) (1, 1)
 eulerFracAux 2 (1, 1) (2, 1)
 eulerFracAux 3 (1, 2) (5, 2)
-eulerFracAux 4 (1, 6) (8, 3)   -- i > 3, Ergebnis: Just (8, 3)
+eulerFracAux 4 (1, 6) (8, 3)   -- i > 3, = Just (8, 3)
 
-Im Aufruf mit Index i gilt:
-  t   = t_(i-1) = 1/(i-1)!
-  acc = e_(i-1) = 1/0! + 1/1! + ... + 1/(i-1)!
+mit Index i gilt:
+  t   = ti-1 = 1/(i-1)!
+  acc = ei-1 = 1/0! + 1/1! + ... + 1/(i-1)!
 
 
 (b) Antwort:
-Double kann die meisten Zahlen (z. B. 1/6) nur gerundet speichern,
-und jede Addition rundet das Ergebnis erneut. Die Addition ist deshalb
-nicht assoziativ: (a + b) + c kann etwas anderes ergeben als a + (b + c).
+Double kann die meistten Zahlen (z. B. 1/6) nur gerundet speichern,
+und jedes plus rundet das ergebnis erneut. 
++ -> ist deshalb nicht assoziativ
 
-eulerFrac rechnet mit exakten Brüchen und rundet nur einmal am Ende
-(bei fracToDouble). euler rechnet dagegen mit Double und rundet bei
-jedem Term und jeder Addition. Die Fehler summieren sich, und je nach
-Reihenfolge der Additionen kommt ein anderes Ergebnis heraus. Mit der
-passenden Reihenfolge stimmt euler auch mit dem exakten Wert überein.
+eulerFrac rechnet mit exakten brüchen und rundet nur einmal am Ende. euler rechnet dagegen mit doubl und rundet bei
+jedem Term und jeder Addition. 
+Die Rundungsfehler Stacken sich und sohmit ist die Reihenfolge wichtig
+-> reihenfolge wichtig!
 -}

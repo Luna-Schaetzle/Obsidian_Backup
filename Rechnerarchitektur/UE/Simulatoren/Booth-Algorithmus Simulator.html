@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Booth-Algorithmus</title>
+<style>
+:root{--bg:#fff;--fg:#1c1c1c;--mu:#666;--bd:#d0d0d0;--ac:#2a5bd7;--ok:#1a7f37;--bad:#c62828;--hi:#eef2fd;--add:#e6f4ea;--sub:#fdecea;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1b1f;--fg:#eaeaea;--mu:#a0a0a0;--bd:#3a3a42;--ac:#7aa2ff;--ok:#5fd37f;--bad:#ff7a7a;--hi:#262a3a;--add:#1d3324;--sub:#3a2222}}
+:root[data-theme="dark"]{--bg:#1b1b1f;--fg:#eaeaea;--mu:#a0a0a0;--bd:#3a3a42;--ac:#7aa2ff;--ok:#5fd37f;--bad:#ff7a7a;--hi:#262a3a;--add:#1d3324;--sub:#3a2222}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,sans-serif;margin:0;padding:16px;max-width:980px;margin-inline:auto}
+h1{font-size:1.3rem;margin:.2em 0}
+.ctl{display:flex;flex-wrap:wrap;gap:14px;align-items:end;margin:14px 0}
+label{display:flex;flex-direction:column;font-size:.85rem;color:var(--mu);gap:3px}
+input[type=number]{font:inherit;padding:6px 8px;width:100px;border:1px solid var(--bd);border-radius:6px;background:var(--bg);color:var(--fg)}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;font-family:ui-monospace,Menlo,monospace;margin:8px 0;white-space:nowrap}
+th,td{border:1px solid var(--bd);padding:5px 9px;text-align:center}
+th{background:var(--hi);font-weight:600;font-family:system-ui,sans-serif}
+tr.add td.op{background:var(--add)}tr.sub td.op{background:var(--sub)}
+.box{border:1px solid var(--bd);border-radius:8px;padding:10px 14px;margin:12px 0}
+.ok{color:var(--ok);font-weight:600}.bad{color:var(--bad);font-weight:600}
+.warn{color:var(--bad)}small{color:var(--mu)}
+</style></head><body>
+<h1>Booth-Algorithmus (Multiplikation im Zweierkomplement)</h1>
+<small>Register: A (n Bit, Start 0), Q = Multiplikator, Q₋₁ (Start 0), M = Multiplikand. Je Schritt auf Q₀Q₋₁ schauen:
+01 → A = A + M, 10 → A = A − M, 00/11 → nichts. Danach arithmetischer Rechtsshift von (A, Q, Q₋₁). n Schritte, Ergebnis = A:Q (2n Bit).</small>
+<div class="ctl">
+ <label>n (Bits, 2–12)<input type="number" id="n" value="4" min="2" max="12"></label>
+ <label>M, Multiplikand<input type="number" id="m" value="-3"></label>
+ <label>Q, Multiplikator<input type="number" id="q" value="5"></label>
+</div>
+<div id="warn" class="warn"></div>
+<div class="scroll" id="tbl"></div>
+<div class="box" id="res"></div>
+<script>
+const $=id=>document.getElementById(id);
+const bin=(x,w)=>(x&((1<<w)-1)).toString(2).padStart(w,'0');
+function run(){
+ const n=Math.max(2,Math.min(12,parseInt($('n').value)||4));
+ const m=parseInt($('m').value)||0,qd=parseInt($('q').value)||0;
+ const lo=-(1<<(n-1)),hi=(1<<(n-1))-1;
+ let w='';
+ if(m<lo||m>hi)w+=`M liegt außerhalb von ${lo}…${hi}. `;
+ if(qd<lo||qd>hi)w+=`Q liegt außerhalb von ${lo}…${hi}. `;
+ $('warn').textContent=w+(w?'(Es werden nur die unteren n Bits verwendet.)':'');
+ const mask=(1<<n)-1;
+ const M=((m&mask)>=(1<<(n-1)))?(m&mask)-(1<<n):(m&mask);
+ let Q=qd&mask,q1=0,A=0;
+ let h=`<table><tr><th>Schritt</th><th>A</th><th>Q</th><th>Q₋₁</th><th>Q₀Q₋₁</th><th>Operation</th><th>A nach Op (n+1 Bit)</th><th>A nach Shift</th><th>Q nach Shift</th><th>Q₋₁ nach Shift</th></tr>`;
+ h+=`<tr><td>Start</td><td>${bin(A,n)}</td><td>${bin(Q,n)}</td><td>0</td><td colspan="7" style="text-align:left"><small>&nbsp;M = ${bin(M,n)} (${M}), −M = ${bin(-M,n+1)} (n+1 Bit)</small></td></tr>`;
+ for(let i=1;i<=n;i++){
+  const q0=Q&1,pair=`${q0}${q1}`;
+  let op='nichts',cls='',B=bin(A,n),A2=A;
+  if(pair==='01'){op='A = A + M';cls='add';A2=A+M}
+  else if(pair==='10'){op='A = A − M';cls='sub';A2=A-M}
+  const post=bin(A2,n+1);
+  const nQ=(Q>>1)|((A2&1)<<(n-1)),nA=A2>>1;
+  h+=`<tr class="${cls}"><td>${i}</td><td>${B}</td><td>${bin(Q,n)}</td><td>${q1}</td><td>${pair}</td><td class="op">${op}</td><td>${post}</td><td>${bin(nA,n)}</td><td>${bin(nQ,n)}</td><td>${q0}</td></tr>`;
+  A=nA;Q=nQ;q1=q0;
+ }
+ h+='</table>';
+ $('tbl').innerHTML=h;
+ const val=A*(1<<n)+Q,exact=m*qd,Qs=(qd&mask)>=(1<<(n-1))?(qd&mask)-(1<<n):(qd&mask);
+ const ex=M*Qs;
+ $('res').innerHTML=`<b>Ergebnis A:Q</b> = ${bin(A,n)} ${bin(Q,n)} (2n = ${2*n} Bit) = <b>${val}</b><br>`+
+  `<b>Kontrolle:</b> ${M} · ${Qs} = ${ex} → `+(val===ex?'<span class="ok">stimmt</span>':'<span class="bad">weicht ab</span>')+
+  `<br><small>Der Zwischenwert nach Add/Sub hat n+1 Bit, damit auch Fälle wie A − M bei M = ${lo} korrekt shiften.</small>`;
+}
+['n','m','q'].forEach(i=>$(i).addEventListener('input',run));
+run();
+</script></body></html>

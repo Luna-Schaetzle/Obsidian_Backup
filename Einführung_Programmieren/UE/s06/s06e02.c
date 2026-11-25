@@ -20,3 +20,4 @@ int is_monotonic(const int values[], size_t length) {
     }
     return steigend || fallend;
 }
+Elementarmatrizen

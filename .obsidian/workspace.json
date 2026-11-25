@@ -8,43 +8,85 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f7de24d6f99be693",
+            "id": "65592ed5381d51b1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Lineare Algebra/Blatt 06/UE_LinAlg1_Blatt_06.pdf"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "UE_LinAlg1_Blatt_06"
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
-            "id": "40ecb709270f1dfb",
+            "id": "e36eaa6d28be6153",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Lineare Algebra/Linal.pdf"
+                "file": "Lineare Algebra/Blatt 07/UE_LinAlg1_Blatt_07.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Linal"
+              "title": "UE_LinAlg1_Blatt_07"
             }
           },
           {
-            "id": "15116356582cfddd",
+            "id": "dff376efcdb3f2e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rechnerarchitektur/VO/Arithmetik.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Arithmetik"
+            }
+          },
+          {
+            "id": "6cc43e9cda3d4aba",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Lineare Algebra/Blatt 5/Schaetzle_Blatt_05_Gruppe_1.pdf"
+                "file": "Rechnerarchitektur/UE/zettel06.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Schaetzle_Blatt_05_Gruppe_1"
+              "title": "zettel06"
+            }
+          },
+          {
+            "id": "a2f08be492a9b027",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Rechnerarchitektur/VO/vor7_befehlssatzarchitektur_I.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "vor7_befehlssatzarchitektur_I"
+            }
+          },
+          {
+            "id": "2af0a77d3e5f123e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rechnerarchitektur/VO/Befehlsatzarchitektur.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Befehlsatzarchitektur"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -263,29 +305,30 @@
       "flashcard-learning:Review flashcards": false
     }
   },
-  "active": "d22ec643bad79d95",
+  "active": "2af0a77d3e5f123e",
   "lastOpenFiles": [
+    "C Cheat Sheet.md",
+    "Rechnerarchitektur/VO/Befehlsatzarchitektur.md",
+    "Rechnerarchitektur/VO/vor7_befehlssatzarchitektur_I.pdf",
+    "Rechnerarchitektur/VO/vor6_arithmetik_II.pdf",
+    "README.md",
+    "Rechnerarchitektur/UE/zettel06.pdf",
+    "Rechnerarchitektur/VO/Arithmetik.md",
+    "Lineare Algebra/Blatt 5/UE_LinAlg1_Blatt_05.pdf",
+    "Lineare Algebra/Blatt 07/UE_LinAlg1_Blatt_07.pdf",
+    "Theoretische Informatik/UE/blatt6-Thinfi.pdf",
+    "Lineare Algebra/Blatt 07",
+    "Einführung_Programmieren/UE/s07/s07e05.c~",
+    "Einführung_Programmieren/UE/s07/s07e03.c~",
+    "Tutorium Funktionale Programmierung.md",
+    "Funktionale_Programmierung/Tutorium",
+    "Lineare Algebra/Blatt 06/Schaetzle_Blatt_06_Gruppe_1.md",
     "Lineare Algebra/Blatt 06/Schaetzle_Blatt_05_Gruppe_1.md",
-    "Lineare Algebra/Blatt 06/Schaetzle_Blatt_05_Gruppe_1.pdf",
-    "Lineare Algebra/Blatt 5/Schaetzle_Blatt_05_Gruppe_1.pdf",
-    "Lineare Algebra/Blatt 4/UE_LinAlg1_Blatt_04.pdf",
     "Lineare Algebra/Blatt 06/IMG_20261122_144829860.jpg",
-    "Lineare Algebra/Blatt 06/UE_LinAlg1_Blatt_06.pdf",
     "Lineare Algebra/Blatt 06/IMG_20261122_144844327.jpg",
     "Lineare Algebra/Blatt 06/IMG_20261122_144838500.jpg",
     "Lineare Algebra/Blatt 06/IMG_20261122_144835550.jpg",
-    "Unbenannt.md",
-    "Lineare Algebra/Linal.pdf",
-    "Theoretische Informatik/UE/blatt6.pdf",
-    "Funktionale_Programmierung/UE/05/05.pdf",
-    "Funktionale_Programmierung/UE/05/fp_ps_05/dist-newstyle/build/x86_64-linux/ghc-9.10.3/FP-Proseminar-Tests-0.1.0.0/x/Main/build/Main/Main-tmp/Template_05.o.tmp",
-    "Funktionale_Programmierung/UE/05/fp_ps_05/dist-newstyle/build/x86_64-linux/ghc-9.10.3/FP-Proseminar-Tests-0.1.0.0/x/Main/build/Main/Main-tmp/Tests_05.o.tmp",
-    "Funktionale_Programmierung/UE/05/fp_ps_05/dist-newstyle/cache/up-to-date",
-    "README.md",
-    "Befehlsatzarchitektur.md",
-    "C Cheat Sheet.md",
     "ASCII-Tabelle.md",
-    "Rechnerarchitektur/VO/Arithmetik.md",
     "Theoretische Informatik/VO/Theoretische Informatik Einleitung.md",
     "Pasted image 20261118095406.png",
     "Lineare Algebra/Blatt 5/Schaetzle_Blatt_05_Gruppe_1.md",
@@ -309,7 +352,6 @@
     "Vorlagen/Exam Prep.md",
     "Vorlagen/Lecture Note.md",
     "Vorlagen/Reading Note.md",
-    "Vorlagen/Class Notes (Cornell).md",
     "Unbenannt.canvas",
     "Unbenannt 4.canvas",
     "Unbenannt 3.canvas",

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Addier-/Subtrahierwerk</title>
+<style>
+:root{--bg:#fff;--fg:#1c1c1c;--mu:#666;--bd:#d0d0d0;--ac:#2a5bd7;--ok:#1a7f37;--bad:#c62828;--hi:#eef2fd;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1b1f;--fg:#eaeaea;--mu:#a0a0a0;--bd:#3a3a42;--ac:#7aa2ff;--ok:#5fd37f;--bad:#ff7a7a;--hi:#262a3a}}
+:root[data-theme="dark"]{--bg:#1b1b1f;--fg:#eaeaea;--mu:#a0a0a0;--bd:#3a3a42;--ac:#7aa2ff;--ok:#5fd37f;--bad:#ff7a7a;--hi:#262a3a}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,sans-serif;margin:0;padding:16px;max-width:900px;margin-inline:auto}
+h1{font-size:1.3rem;margin:.2em 0}
+.ctl{display:flex;flex-wrap:wrap;gap:14px;align-items:end;margin:14px 0}
+label{display:flex;flex-direction:column;font-size:.85rem;color:var(--mu);gap:3px}
+input[type=number]{font:inherit;padding:6px 8px;width:90px;border:1px solid var(--bd);border-radius:6px;background:var(--bg);color:var(--fg)}
+.seg{display:flex;border:1px solid var(--bd);border-radius:6px;overflow:hidden}
+.seg button{font:inherit;padding:7px 14px;border:0;background:var(--bg);color:var(--fg);cursor:pointer}
+.seg button.on{background:var(--ac);color:var(--bg)}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;font-family:ui-monospace,Menlo,monospace;margin:8px 0}
+th,td{border:1px solid var(--bd);padding:5px 9px;text-align:center}
+th{background:var(--hi);font-weight:600}
+td.l{text-align:left;color:var(--mu);font-family:system-ui,sans-serif;white-space:nowrap}
+.box{border:1px solid var(--bd);border-radius:8px;padding:10px 14px;margin:12px 0}
+.ok{color:var(--ok);font-weight:600}.bad{color:var(--bad);font-weight:600}
+.warn{color:var(--bad)}
+small{color:var(--mu)}
+</style></head><body>
+<h1>Kombiniertes Addier-/Subtrahierwerk (Zweierkomplement)</h1>
+<small>s = 0: y = a + b &nbsp;|&nbsp; s = 1: y = a + b̄ + 1 (b wird per XOR mit s invertiert, s ist Carry-in)</small>
+<div class="ctl">
+ <label>n (Bits, 2–16)<input type="number" id="n" value="5" min="2" max="16"></label>
+ <label>a (dezimal)<input type="number" id="a" value="-3"></label>
+ <label>b (dezimal)<input type="number" id="b" value="7"></label>
+ <label>Modus s<div class="seg"><button id="s0">s=0 (+)</button><button id="s1" class="on">s=1 (−)</button></div></label>
+</div>
+<div id="warn" class="warn"></div>
+<div class="scroll" id="tbl"></div>
+<div class="box" id="res"></div>
+<script>
+let s=1;
+const $=id=>document.getElementById(id);
+const bin=(x,n)=>(x&((1<<n)-1)).toString(2).padStart(n,'0');
+const sg=(u,n)=>u>=(1<<(n-1))?u-(1<<n):u;
+function setS(v){s=v;$('s0').classList.toggle('on',v==0);$('s1').classList.toggle('on',v==1);run()}
+function run(){
+ let n=Math.max(2,Math.min(16,parseInt($('n').value)||5));
+ const a=parseInt($('a').value)||0,b=parseInt($('b').value)||0;
+ const lo=-(1<<(n-1)),hi=(1<<(n-1))-1;
+ let w='';
+ if(a<lo||a>hi)w+=`a liegt außerhalb von ${lo}…${hi}. `;
+ if(b<lo||b>hi)w+=`b liegt außerhalb von ${lo}…${hi}. `;
+ $('warn').textContent=w+(w?'(Es werden nur die unteren n Bits verwendet.)':'');
+ const mask=(1<<n)-1,A=a&mask,B=b&mask,Bx=B^(s?mask:0);
+ const ar=[],br=[],bx=[],cin=[],y=[],co=[];
+ let c=s;
+ for(let i=0;i<n;i++){
+  const ai=(A>>i)&1,bi=(B>>i)&1,xi=(Bx>>i)&1,t=ai+xi+c;
+  ar[i]=ai;br[i]=bi;bx[i]=xi;cin[i]=c;y[i]=t&1;co[i]=t>>1;c=co[i];
+ }
+ let Y=0;for(let i=0;i<n;i++)Y|=y[i]<<i;
+ const cn2=co[n-2],cn1=co[n-1],v=cn2^cn1;
+ const row=(lab,arr)=>`<tr><td class="l">${lab}</td>`+arr.slice().reverse().map(x=>`<td>${x}</td>`).join('')+'</tr>';
+ let h='<table><tr><th></th>';
+ for(let i=n-1;i>=0;i--)h+=`<th>${i}</th>`;
+ h+='</tr>'+row('a<sub>i</sub>',ar)+row('b<sub>i</sub> (Eingang)',br)+row('b<sub>i</sub> ⊕ s',bx)+row('Carry-in c<sub>i−1</sub>',cin)+row('y<sub>i</sub> (Summe)',y)+row('Carry-out c<sub>i</sub>',co)+'</table>';
+ $('tbl').innerHTML=h;
+ const exact=a+(s?-b:b),yv=sg(Y,n);
+ const okr=exact>=lo&&exact<=hi;
+ $('res').innerHTML=
+  `<b>Eingänge:</b> a = ${bin(A,n)}, b = ${bin(B,n)}, s = ${s}<br>`+
+  `<b>Ausgänge:</b> y = ${bin(Y,n)} (= ${yv} dezimal), c<sub>n−2</sub> = ${cn2}, c<sub>n−1</sub> = ${cn1}, `+
+  `v = c<sub>n−2</sub> ⊕ c<sub>n−1</sub> = ${v}<br>`+
+  `<b>Korrektes Ergebnis:</b> ${a} ${s?'−':'+'} ${b} = ${exact} (Bereich ${lo}…${hi})<br>`+
+  (v?`<span class="bad">Überlauf!</span> Das Ergebnis ${exact} passt nicht in ${n} Bit, y zeigt ${yv}.`:
+     `<span class="ok">Kein Überlauf</span>, y = ${yv} ist korrekt.`)+
+  (v==(okr?0:1)?'':'<br><small>Hinweis: Eingaben außerhalb des Bereichs können die Anzeige verfälschen.</small>');
+}
+['n','a','b'].forEach(i=>$(i).addEventListener('input',run));
+$('s0').onclick=()=>setS(0);$('s1').onclick=()=>setS(1);
+run();
+</script></body></html>
