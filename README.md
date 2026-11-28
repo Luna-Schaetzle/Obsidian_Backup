@@ -28,12 +28,15 @@ TODO:
 > - [x] Rechnerarchitektur Blatt 05 (@2026-11-18)
 > - [x]  Lineare Algebra Blatt 06 (@2026-11-22 14:42)
 > - [x]  Einführung in die Programmierung s06 (@2026-11-23)
-> - [ ]  Rechnerarchitektur Blatt 06 (@2026-11-25)
+> - [x]  Rechnerarchitektur Blatt 06 (@2026-11-25)
 > - [x]  Funktionale Programmierung Blatt 05 (@2026-11-24)
-> - [ ]  Theoretische Informatik Blatt 06 (@2026-11-27 12:00)
+> - [x]  Theoretische Informatik Blatt 06 (@2026-11-27 12:00)
 > - [ ] Einfuehrung in die Programmierung s07(@2026-11-30)
 > - [ ] Lineare Algebra Blatt 07 (@2026-11-29)
-> - [ ] 
+> - [ ] Funktionale Programmierung 06 (@2026-12-01)
+> - [ ] Rechnerarchitektur Zettel 07 (@2026-12-02)
+> - [ ] Theoretische Informatik Blatt 07 (@2026-12-04)
+> 
 
 
 

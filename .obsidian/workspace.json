@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "65592ed5381d51b1",
+            "id": "0fd3a526dcc152f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,7 +22,21 @@
             }
           },
           {
-            "id": "e36eaa6d28be6153",
+            "id": "1689c7a440e2b307",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "http://morphett.info/turing/turing.html",
+                "title": "Turing machine simulator",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Turing machine simulator"
+            }
+          },
+          {
+            "id": "e0ca30b891652efc",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -34,55 +48,29 @@
             }
           },
           {
-            "id": "dff376efcdb3f2e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rechnerarchitektur/VO/Arithmetik.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Arithmetik"
-            }
-          },
-          {
-            "id": "6cc43e9cda3d4aba",
+            "id": "345c5677956b29d4",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Rechnerarchitektur/UE/zettel06.pdf"
+                "file": "Lineare Algebra/Linal.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "zettel06"
+              "title": "Linal"
             }
           },
           {
-            "id": "a2f08be492a9b027",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Rechnerarchitektur/VO/vor7_befehlssatzarchitektur_I.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "vor7_befehlssatzarchitektur_I"
-            }
-          },
-          {
-            "id": "2af0a77d3e5f123e",
+            "id": "860051f1d5100530",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rechnerarchitektur/VO/Befehlsatzarchitektur.md",
+                "file": "Lineare Algebra/Uebungsblaetter/LinAlg1_Midterm_Loesungen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Befehlsatzarchitektur"
+              "title": "LinAlg1_Midterm_Loesungen"
             }
           }
         ],
@@ -166,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 381.62440490722656
   },
   "right": {
     "id": "98b38164896869dc",
@@ -305,32 +293,37 @@
       "flashcard-learning:Review flashcards": false
     }
   },
-  "active": "2af0a77d3e5f123e",
+  "active": "860051f1d5100530",
   "lastOpenFiles": [
-    "C Cheat Sheet.md",
-    "Rechnerarchitektur/VO/Befehlsatzarchitektur.md",
-    "Rechnerarchitektur/VO/vor7_befehlssatzarchitektur_I.pdf",
-    "Rechnerarchitektur/VO/vor6_arithmetik_II.pdf",
+    "Lineare Algebra/Uebungsblaetter/LinAlg1_Midterm_Loesungen.pdf",
+    "Lineare Algebra/Uebungsblaetter/LinAlg1_Midterm_Loesungen.log",
+    "Lineare Algebra/Uebungsblaetter/LinAlg1_Midterm_Uebungen.md",
+    "Lineare Algebra/Uebungsblaetter/LinAlg1_Midterm_Uebungen.pdf",
+    "Lineare Algebra/Uebungsblaetter/LinAlg1_Midterm_Uebungen.log",
+    "Lineare Algebra/Linal.pdf",
+    "LinAlg1_Midterm_Loesungen.md.pdf",
+    "Lineare Algebra/Uebungsblaetter/LinAlg1_Midterm_Loesungen.fls",
+    "Lineare Algebra/Uebungsblaetter/pdflatex21450.fls",
+    "Lineare Algebra/Uebungsblaetter/LinAlg1_Midterm_Loesungen.fdb_latexmk",
+    "Lineare Algebra/Uebungsblaetter/LinAlg1_Midterm_Loesungen.aux",
+    "Lineare Algebra/Uebungsblaetter/LinAlg1_Midterm_Loesungen.md",
+    "Funktionale_Programmierung/UE/06/files/LinAlg1_Midterm_Loesungen.md",
+    "Funktionale_Programmierung/UE/06/files/LinAlg1_Midterm_Uebungen.md",
     "README.md",
-    "Rechnerarchitektur/UE/zettel06.pdf",
     "Rechnerarchitektur/VO/Arithmetik.md",
-    "Lineare Algebra/Blatt 5/UE_LinAlg1_Blatt_05.pdf",
-    "Lineare Algebra/Blatt 07/UE_LinAlg1_Blatt_07.pdf",
-    "Theoretische Informatik/UE/blatt6-Thinfi.pdf",
-    "Lineare Algebra/Blatt 07",
-    "Einführung_Programmieren/UE/s07/s07e05.c~",
-    "Einführung_Programmieren/UE/s07/s07e03.c~",
+    "Rechnerarchitektur/VO/Images/Pasted image 20261118095406.png",
+    "ASCII-Tabelle.md",
+    "Rechnerarchitektur/VO/Befehlsatzarchitektur.md",
+    "Rechnerarchitektur/ARM/Ideen.md",
+    "C Cheat Sheet.md",
     "Tutorium Funktionale Programmierung.md",
-    "Funktionale_Programmierung/Tutorium",
     "Lineare Algebra/Blatt 06/Schaetzle_Blatt_06_Gruppe_1.md",
     "Lineare Algebra/Blatt 06/Schaetzle_Blatt_05_Gruppe_1.md",
     "Lineare Algebra/Blatt 06/IMG_20261122_144829860.jpg",
     "Lineare Algebra/Blatt 06/IMG_20261122_144844327.jpg",
     "Lineare Algebra/Blatt 06/IMG_20261122_144838500.jpg",
     "Lineare Algebra/Blatt 06/IMG_20261122_144835550.jpg",
-    "ASCII-Tabelle.md",
     "Theoretische Informatik/VO/Theoretische Informatik Einleitung.md",
-    "Pasted image 20261118095406.png",
     "Lineare Algebra/Blatt 5/Schaetzle_Blatt_05_Gruppe_1.md",
     "Lineare Algebra/Blatt 5/IMG_20261115_121711412.jpg",
     "Lineare Algebra/Blatt 5/IMG_20261115_121745049.jpg",
@@ -347,11 +340,6 @@
     "Einführung_Programmieren/VO/Flashcards_EidP_Midterm_1.md",
     "Funktionale_Programmierung/VO/Daten, Repräsentation und Bäume.md",
     "Dashboard.md",
-    "Rechnerarchitektur/VO/Kombinatorische Logik FlashCards.md",
-    "Test.md",
-    "Vorlagen/Exam Prep.md",
-    "Vorlagen/Lecture Note.md",
-    "Vorlagen/Reading Note.md",
     "Unbenannt.canvas",
     "Unbenannt 4.canvas",
     "Unbenannt 3.canvas",

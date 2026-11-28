@@ -4,18 +4,6 @@
   "reminders": {
     "README.md": [
       {
-        "title": "Rechnerarchitektur Blatt 06",
-        "time": "2026-11-25",
-        "rowNumber": 30,
-        "muted": true
-      },
-      {
-        "title": "Theoretische Informatik Blatt 06",
-        "time": "2026-11-27 12:00",
-        "rowNumber": 32,
-        "muted": false
-      },
-      {
         "title": "Einfuehrung in die Programmierung s07",
         "time": "2026-11-30",
         "rowNumber": 33,
@@ -25,6 +13,24 @@
         "title": "Lineare Algebra Blatt 07",
         "time": "2026-11-29",
         "rowNumber": 34,
+        "muted": false
+      },
+      {
+        "title": "Funktionale Programmierung 06",
+        "time": "2026-12-01",
+        "rowNumber": 35,
+        "muted": false
+      },
+      {
+        "title": "Rechnerarchitektur Zettel 07",
+        "time": "2026-12-02",
+        "rowNumber": 36,
+        "muted": false
+      },
+      {
+        "title": "Theoretische Informatik Blatt 07",
+        "time": "2026-12-04",
+        "rowNumber": 37,
         "muted": false
       }
     ]

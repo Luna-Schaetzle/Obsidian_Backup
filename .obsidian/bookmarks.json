@@ -17,6 +17,12 @@
       "ctime": 1794387067687,
       "url": "https://ifi-armsim.uibk.ac.at/",
       "title": "RA-Sims"
+    },
+    {
+      "type": "url",
+      "ctime": 1795613429641,
+      "url": "http://morphett.info/turing/turing.html",
+      "title": "Turing machine simulator"
     }
   ]
 }

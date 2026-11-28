@@ -1,52 +1,120 @@
 {
   "recentFiles": [
     {
-      "basename": "Befehlsatzarchitektur",
-      "path": "Rechnerarchitektur/VO/Befehlsatzarchitektur.md"
+      "basename": "LinAlg1_Midterm_Loesungen",
+      "path": "Lineare Algebra/Uebungsblaetter/LinAlg1_Midterm_Loesungen.md"
     },
     {
-      "basename": "C Cheat Sheet",
-      "path": "C Cheat Sheet.md"
+      "basename": "LinAlg1_Midterm_Uebungen",
+      "path": "Lineare Algebra/Uebungsblaetter/LinAlg1_Midterm_Uebungen.md"
     },
     {
-      "basename": "vor7_befehlssatzarchitektur_I",
-      "path": "Rechnerarchitektur/VO/vor7_befehlssatzarchitektur_I.pdf"
+      "basename": "LinAlg1_Midterm_Uebungen",
+      "path": "Lineare Algebra/Uebungsblaetter/LinAlg1_Midterm_Uebungen.pdf"
     },
     {
-      "basename": "vor6_arithmetik_II",
-      "path": "Rechnerarchitektur/VO/vor6_arithmetik_II.pdf"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "zettel06",
-      "path": "Rechnerarchitektur/UE/zettel06.pdf"
-    },
-    {
-      "basename": "Arithmetik",
-      "path": "Rechnerarchitektur/VO/Arithmetik.md"
-    },
-    {
-      "basename": "UE_LinAlg1_Blatt_05",
-      "path": "Lineare Algebra/Blatt 5/UE_LinAlg1_Blatt_05.pdf"
-    },
-    {
-      "basename": "UE_LinAlg1_Blatt_07",
-      "path": "Lineare Algebra/Blatt 07/UE_LinAlg1_Blatt_07.pdf"
+      "basename": "Linal",
+      "path": "Lineare Algebra/Linal.pdf"
     },
     {
       "basename": "blatt6-Thinfi",
       "path": "Theoretische Informatik/UE/blatt6-Thinfi.pdf"
     },
     {
-      "basename": "Tutorium Funktionale Programmierung",
-      "path": "Tutorium Funktionale Programmierung.md"
+      "basename": "UE_LinAlg1_Blatt_07",
+      "path": "Lineare Algebra/Blatt 07/UE_LinAlg1_Blatt_07.pdf"
     },
     {
-      "basename": "Linal",
-      "path": "Lineare Algebra/Linal.pdf"
+      "basename": "zettel07",
+      "path": "Rechnerarchitektur/UE/zettel07.pdf"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "vor7_befehlssatzarchitektur_I",
+      "path": "Rechnerarchitektur/VO/vor7_befehlssatzarchitektur_I.pdf"
+    },
+    {
+      "basename": "vor_5_Thoeretische_Informatik",
+      "path": "Theoretische Informatik/VO/vor_5_Thoeretische_Informatik.pdf"
+    },
+    {
+      "basename": "vor_7s_Theoretische_Informatik",
+      "path": "Theoretische Informatik/VO/vor_7s_Theoretische_Informatik.pdf"
+    },
+    {
+      "basename": "vor_3_Theoretische_Informatik",
+      "path": "Theoretische Informatik/VO/vor_3_Theoretische_Informatik.pdf"
+    },
+    {
+      "basename": "vor_4_Theoretische_Informatik",
+      "path": "Theoretische Informatik/VO/vor_4_Theoretische_Informatik.pdf"
+    },
+    {
+      "basename": "vor_7_Theoretische_Informatik",
+      "path": "Theoretische Informatik/VO/vor_7_Theoretische_Informatik.pdf"
+    },
+    {
+      "basename": "vor_6_Theoretische_Informatik",
+      "path": "Theoretische Informatik/VO/vor_6_Theoretische_Informatik.pdf"
+    },
+    {
+      "basename": "vor5_arithmetik_I",
+      "path": "Rechnerarchitektur/VO/vor5_arithmetik_I.pdf"
+    },
+    {
+      "basename": "vor6_arithmetik_II",
+      "path": "Rechnerarchitektur/VO/vor6_arithmetik_II.pdf"
+    },
+    {
+      "basename": "Arithmetik",
+      "path": "Rechnerarchitektur/VO/Arithmetik.md"
+    },
+    {
+      "basename": "zettel06",
+      "path": "Rechnerarchitektur/UE/zettel06.pdf"
+    },
+    {
+      "basename": "05",
+      "path": "Funktionale_Programmierung/UE/05/05.pdf"
+    },
+    {
+      "basename": "06",
+      "path": "Funktionale_Programmierung/UE/06/06.pdf"
+    },
+    {
+      "basename": "Pasted image 20261118095406",
+      "path": "Rechnerarchitektur/VO/Images/Pasted image 20261118095406.png"
+    },
+    {
+      "basename": "ASCII-Tabelle",
+      "path": "ASCII-Tabelle.md"
+    },
+    {
+      "basename": "Befehlsatzarchitektur",
+      "path": "Rechnerarchitektur/VO/Befehlsatzarchitektur.md"
+    },
+    {
+      "basename": "ARM_Referenz_WS2627",
+      "path": "Rechnerarchitektur/VO/ARM_Referenz_WS2627.pdf"
+    },
+    {
+      "basename": "vor1_einfuehrung",
+      "path": "Rechnerarchitektur/VO/vor1_einfuehrung.pdf"
+    },
+    {
+      "basename": "C Cheat Sheet",
+      "path": "C Cheat Sheet.md"
+    },
+    {
+      "basename": "UE_LinAlg1_Blatt_05",
+      "path": "Lineare Algebra/Blatt 5/UE_LinAlg1_Blatt_05.pdf"
+    },
+    {
+      "basename": "Tutorium Funktionale Programmierung",
+      "path": "Tutorium Funktionale Programmierung.md"
     },
     {
       "basename": "UE_LinAlg1_Infoblatt",
@@ -57,16 +125,8 @@
       "path": "Lineare Algebra/Blatt 06/UE_LinAlg1_Blatt_06.pdf"
     },
     {
-      "basename": "vor5_arithmetik_I",
-      "path": "Rechnerarchitektur/VO/vor5_arithmetik_I.pdf"
-    },
-    {
       "basename": "Booth-Algorithmus Simulator",
       "path": "Rechnerarchitektur/UE/Simulatoren/Booth-Algorithmus Simulator.html"
-    },
-    {
-      "basename": "vor_6_Theoretische_Informatik",
-      "path": "Theoretische Informatik/VO/vor_6_Theoretische_Informatik.pdf"
     },
     {
       "basename": "Schaetzle_Blatt_05_Gruppe_1",
@@ -79,14 +139,6 @@
     {
       "basename": "IMG_20261122_144829860",
       "path": "Lineare Algebra/Blatt 06/IMG_20261122_144829860.jpg"
-    },
-    {
-      "basename": "05",
-      "path": "Funktionale_Programmierung/UE/05/05.pdf"
-    },
-    {
-      "basename": "ASCII-Tabelle",
-      "path": "ASCII-Tabelle.md"
     },
     {
       "basename": "vor_2_Theoretische_Informatik",
@@ -109,20 +161,8 @@
       "path": "Rechnerarchitektur/UE/zettel05.pdf"
     },
     {
-      "basename": "vor_3_Theoretische_Informatik",
-      "path": "Theoretische Informatik/VO/vor_3_Theoretische_Informatik.pdf"
-    },
-    {
       "basename": "Theoretische-Informatik_Einfuehrung-eBook",
       "path": "Theoretische Informatik/Theoretische-Informatik_Einfuehrung-eBook.pdf"
-    },
-    {
-      "basename": "vor_4_Theoretische_Informatik",
-      "path": "Theoretische Informatik/VO/vor_4_Theoretische_Informatik.pdf"
-    },
-    {
-      "basename": "vor_5_Thoeretische_Informatik",
-      "path": "Theoretische Informatik/VO/vor_5_Thoeretische_Informatik.pdf"
     },
     {
       "basename": "Theoretische-Informatik_Formale-Sprachen-und-mehr",
@@ -151,54 +191,6 @@
     {
       "basename": "s05e04",
       "path": "Einführung_Programmieren/UE/s05/s05e04.md"
-    },
-    {
-      "basename": "Einführung in die Programmierung 01–05",
-      "path": "Einführung_Programmieren/VO/Einführung in die Programmierung 01–05.md"
-    },
-    {
-      "basename": "blatt4-ThInfi",
-      "path": "Theoretische Informatik/UE/blatt4-ThInfi.pdf"
-    },
-    {
-      "basename": "Funktionale Programming - Woche - 01x1",
-      "path": "Funktionale_Programmierung/VO/Funktionale Programming - Woche - 01x1.pdf"
-    },
-    {
-      "basename": "Funktionale Programming - Woche - 04x1",
-      "path": "Funktionale_Programmierung/VO/Funktionale Programming - Woche - 04x1.pdf"
-    },
-    {
-      "basename": "zettel04",
-      "path": "Rechnerarchitektur/UE/zettel04.pdf"
-    },
-    {
-      "basename": "Sequenzielle Logik",
-      "path": "Rechnerarchitektur/VO/Sequenzielle Logik.md"
-    },
-    {
-      "basename": "UE-Funktional-Programmierung-03",
-      "path": "Funktionale_Programmierung/UE/03/UE-Funktional-Programmierung-03.pdf"
-    },
-    {
-      "basename": "00",
-      "path": "Funktionale_Programmierung/UE/fp_ps_00/00.pdf"
-    },
-    {
-      "basename": "Kombinatorische Logik",
-      "path": "Rechnerarchitektur/VO/Kombinatorische Logik.md"
-    },
-    {
-      "basename": "Schaetzle_Blatt_04_Gruppe_1",
-      "path": "Lineare Algebra/Blatt 4/Schaetzle_Blatt_04_Gruppe_1.md"
-    },
-    {
-      "basename": "Sequenzielle Logik s15",
-      "path": "Rechnerarchitektur/VO/Images/Sequenzielle Logik s15.png"
-    },
-    {
-      "basename": "vor4_sequenzielle_logik",
-      "path": "Rechnerarchitektur/VO/vor4_sequenzielle_logik.pdf"
     }
   ],
   "omittedPaths": [],
